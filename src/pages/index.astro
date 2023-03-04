@@ -1,0 +1,31 @@
+---
+import Header from "../components/Header.svelte";
+import Landing from "../components/Landing.svelte";
+import Events from "../components/Events.svelte";
+import Projects from "../components/Projects.svelte";
+import Team from "../components/Team.svelte";
+import ContactUs from "../components/ContactUs.svelte";
+import ScrollUp from "../components/ScrollUp.svelte";
+import "../layouts/style.css";
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/gdsc.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>GDSC Al-Yamamah University</title>
+  </head>
+  <body class="bg-[#282C34]">
+    <Header client:only="svelte" />
+    <main>
+      <Landing client:only="svelte" />
+      <Events client:load />
+      <Projects client:load />
+      <Team />
+      <ContactUs client:load />
+    </main>
+    <ScrollUp client:only="svelte" />
+  </body>
+</html>

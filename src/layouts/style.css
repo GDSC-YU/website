@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "DM Sans", sans-serif;
+}
+
+/* default spacer for all devices */
+.spacer {
+  aspect-ratio: 960/100;
+  @apply w-full bg-cover bg-center bg-no-repeat;
+}
+
+/* changing ratio for mobile devices */
+@media screen and (max-width: 767px) {
+  .spacer {
+    aspect-ratio: 960/200;
+  }
+}
+
+/* a bunch of layers :D */
+
+.blue-layer1 {
+  background-image: url("/layers/blue-layer1.svg");
+}
+.blue-layer2 {
+  background-image: url("/layers/blue-layer2.svg");
+}
+
+.red-layer1 {
+  background-image: url("/layers/red-layer1.svg");
+}
+.red-layer2 {
+  background-image: url("/layers/red-layer2.svg");
+}
+
+.yellow-layer1 {
+  background-image: url("/layers/yellow-layer1.svg");
+}
+.yellow-layer2 {
+  background-image: url("/layers/yellow-layer2.svg");
+}
+
+.green-layer1 {
+  background-image: url("/layers/green-layer1.svg");
+}
+.green-layer2 {
+  background-image: url("/layers/green-layer2.svg");
+}
