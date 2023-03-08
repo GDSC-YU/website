@@ -16,7 +16,7 @@
 
   <div class="container mx-auto p-5 text-white">
     <div class="mx-auto md:w-2/3 lg:w-1/2">
-      <form class="-m-2 flex flex-wrap">
+      <form name="Contact-Us" method="POST" netlify class="-m-2 flex flex-wrap">
         <!-- First Name Input -->
         <div class="w-1/2 p-2">
           <div class="relative">
