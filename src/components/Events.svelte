@@ -14,8 +14,8 @@
 
   <!-- Content -->
 
-  <div class="container mx-auto px-5 py-16">
-    <div class="flex flex-wrap">
+  <div class="mx-auto w-full px-2 py-16 lg:px-5">
+    <div class="flex flex-wrap gap-y-4">
       {#each eventsContent as content}
         <div class="p-4 sm:w-1/2 lg:w-1/3">
           <div

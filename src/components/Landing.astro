@@ -1,7 +1,6 @@
-<script>
-  import LogoModel from "./LogoModel.svelte";
-  import * as animateScroll from "svelte-scrollto-next";
-</script>
+---
+import LogoModel from "./LogoModel.svelte";
+---
 
 <section id="landing" class="min-h-[85vh] px-6">
   <div
@@ -24,18 +23,16 @@
         Learn, Grow, and Connect!
       </p>
       <div class="flex justify-center">
-        <button
-          class="rounded bg-orange-400 py-2 px-12 hover:scale-105"
-          on:click={() =>
-            animateScroll.scrollTo({
-              element: "#Contact-Us",
-              offset: 90,
-            })}
-        >
-          <p class="text-lg font-bold">Learn More</p>
+        <button class="rounded bg-orange-400 py-2 px-12 hover:scale-105">
+          <a
+            href="https://gdsc.community.dev/"
+            target="_blank"
+            rel="noreferrer"
+            class="text-lg font-bold">Learn More</a
+          >
         </button>
       </div>
     </div>
-    <LogoModel />
+    <LogoModel client:only="svelte" />
   </div>
 </section>
