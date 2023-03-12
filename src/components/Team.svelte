@@ -14,8 +14,8 @@
 
   <!-- Content -->
 
-  <div class="container px-5 py-14 lg:py-24">
-    <div class="flex flex-wrap gap-y-4 lg:px-5">
+  <div class="mx-auto w-full px-2 py-16 lg:px-5 lg:py-24">
+    <div class="flex flex-wrap gap-y-4">
       {#each us as dude}
         <div class="w-full p-2 md:w-1/2 lg:w-1/3">
           <div

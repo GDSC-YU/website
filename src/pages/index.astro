@@ -1,6 +1,6 @@
 ---
 import Header from "../components/Header.svelte";
-import Landing from "../components/Landing.svelte";
+import Hero from "../components/landing/Hero.astro";
 import Events from "../components/Events.svelte";
 import Projects from "../components/Projects.svelte";
 import Team from "../components/Team.svelte";
@@ -20,7 +20,7 @@ import "../layouts/style.css";
   <body class="bg-[#282C34]">
     <Header client:only="svelte" />
     <main>
-      <Landing client:only="svelte" />
+      <Hero />
       <Events client:load />
       <Projects client:load />
       <Team />
