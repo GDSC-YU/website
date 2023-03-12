@@ -78,6 +78,11 @@
           </button>
         {/each}
       </div>
+      <img
+        src="/header-guy.svg"
+        alt="cute header guy"
+        class="absolute bottom-0 right-0"
+      />
     </nav>
   {/if}
 </header>
