@@ -1,6 +1,6 @@
-<script>
-  import { eventsContent } from "../data/eventsData.js";
-</script>
+---
+  import { eventsContent } from "../data/eventsData.js"
+---
 
 <section id="Events">
   <!-- Wave Shape And Heading Text -->
@@ -16,7 +16,8 @@
 
   <div class="mx-auto w-full px-2 py-16 lg:px-5">
     <div class="flex flex-wrap gap-y-4">
-      {#each eventsContent as content}
+      {eventsContent.map((content) =>{
+        return(
         <div class="p-4 sm:w-1/2 lg:w-1/3">
           <div
             class="relative flex overflow-hidden rounded-2xl shadow-md hover:shadow-2xl"
@@ -31,7 +32,6 @@
 
             <div
               class="lg:duration-400 relative z-10 flex w-full flex-col items-center justify-center gap-y-10 bg-white px-8 py-10 text-center opacity-0 hover:opacity-100 lg:transition lg:ease-in-out"
-              on:touchstart
             >
               <h1 class="text-xl font-bold tracking-widest text-google-blue">
                 {content.eventTitle} - {content.eventType}
@@ -52,7 +52,8 @@
             </div>
           </div>
         </div>
-      {/each}
+        )
+      })}
     </div>
   </div>
 </section>

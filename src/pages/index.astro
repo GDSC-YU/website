@@ -1,10 +1,10 @@
 ---
 import Header from "../components/Header.svelte";
 import Hero from "../components/landing/Hero.astro";
-import Events from "../components/Events.svelte";
-import Projects from "../components/Projects.svelte";
-import Team from "../components/Team.svelte";
-import ContactUs from "../components/ContactUs.svelte";
+import Events from "../components/Events.astro";
+import Projects from "../components/Projects.astro";
+import Team from "../components/Team.astro";
+import ContactUs from "../components/ContactUs.astro";
 import ScrollUp from "../components/ScrollUp.svelte";
 import "../layouts/style.css";
 ---
@@ -22,7 +22,7 @@ import "../layouts/style.css";
     <main>
       <Hero />
       <Events />
-      <Projects client:load />
+      <Projects />
       <Team />
       <ContactUs />
     </main>

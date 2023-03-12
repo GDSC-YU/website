@@ -1,22 +1,27 @@
-<script>
-  import Icon from "@iconify/svelte";
-</script>
+---
+import { Icon } from "astro-icon";
+---
 
 <section id="Contact-Us">
   <!-- Wave Shape And Heading Text -->
-  <div class="spacer green-layer1" />
+  <div class="spacer green-layer1"></div>
   <h1
     class="bg-google-green text-center text-2xl font-bold text-white lg:text-5xl"
   >
     Contact Us
   </h1>
-  <div class="spacer green-layer2" />
+  <div class="spacer green-layer2"></div>
 
   <!-- Content -->
 
   <div class="container mx-auto p-5 text-white">
     <div class="mx-auto md:w-2/3 lg:w-1/2">
-      <form name="Contact-Us" method="POST" netlify class="-m-2 flex flex-wrap">
+      <form
+        name="Contact-Us"
+        method="POST"
+        data-netlify="true"
+        class="-m-2 flex flex-wrap"
+      >
         <!-- First Name Input -->
         <div class="w-1/2 p-2">
           <div class="relative">
@@ -44,7 +49,7 @@
           </div>
         </div>
         <!-- Email Input -->
-        <div class="w-full p-2 ">
+        <div class="w-full p-2">
           <div class="relative">
             <label for="email" class="leading-8">Your Email:</label>
             <input
@@ -65,7 +70,7 @@
               id="message"
               name="message"
               class="h-32 w-full resize-none rounded bg-gray-100 bg-opacity-50 py-1 px-3 leading-6 text-gray-800 outline-none transition-colors duration-200 ease-in-out focus:bg-white focus:ring-2 focus:ring-google-green"
-            />
+            ></textarea>
           </div>
         </div>
         <!-- Send Button -->
@@ -95,7 +100,7 @@
               rel="noreferrer"
               class="hover:text-twitter-blue"
             >
-              <Icon icon="fa:twitter" class="h-6 w-6" />
+              <Icon name="fa:twitter" class="h-6 w-6" />
             </a>
             <a
               href="https://www.instagram.com/gdsc_yu/"
@@ -103,7 +108,7 @@
               rel="noreferrer"
               class="hover:text-dark-pink"
             >
-              <Icon icon="fa:instagram" class="h-6 w-6" />
+              <Icon name="fa:instagram" class="h-6 w-6" />
             </a>
           </span>
         </div>
