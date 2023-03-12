@@ -1,7 +1,7 @@
 export const projectsContent = [
   {
-    projectName: "Al-Yamamah Semester Progress",
-    projectDesc: "Made By Yazeed Al-Khalaf!",
+    projectName: "Al-Yamamah Semester Progress 🗓️",
+    projectDesc: "View The Yu Academic Calender Easily!",
 
     projectImage: "/content/projects/Al-Yamamah Semester Progress.png",
     imageAlt: "A ScreenShot Of Al-Yamamah Semester Progress Project",
@@ -11,7 +11,7 @@ export const projectsContent = [
     projectLink: "https://alyamamah-semester-progress.netlify.app/",
   },
   {
-    projectName: "Tuwaiq Classrooms Availability",
+    projectName: "Tuwaiq Classrooms Availability 📚",
     projectDesc: "Find Empty Rooms Easily!",
 
     projectImage: "/content/projects/Tuwaiq Classrooms Availability.png",
@@ -21,13 +21,13 @@ export const projectsContent = [
     projectLink: "https://tc.gdscyu.com/",
   },
   {
-    projectName: "The New EduGate",
-    projectDesc: "All My Homies Hate The Old EduGate!",
+    projectName: "Al-Yamamah 🤩",
+    projectDesc: "A Modern Replacement For The EduGate !",
 
-    projectImage: "/content/projects/The New EduGate.png",
-    imageAlt: "A ScreenShot Of The New EduGate Project",
+    projectImage: "/content/projects/Al-Yamamah.png",
+    imageAlt: "A ScreenShot Of Al-Yamamah Project",
 
-    projectGithub: "/",
-    projectLink: "/",
+    projectGithub: "https://alyamamah.alkhalaf.dev/",
+    projectLink: "https://github.com/YazeedAlKhalaf/alyamamah",
   },
 ];
