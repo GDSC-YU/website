@@ -1,1 +1,1 @@
-<h1 class="text-centet text-4xl p-4">Great things are coming here!</h1>
+<h1 class="p-4 text-center text-4xl">Great things are coming here!</h1>
