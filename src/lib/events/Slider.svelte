@@ -2,7 +2,7 @@
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css/sea-green';
 
-	import eventsData from '../../data/events';
+	import eventsData from '$data/events';
 </script>
 
 <Splide

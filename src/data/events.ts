@@ -1,4 +1,12 @@
-const eventsData = [
+interface event {
+	type: string;
+	title: string;
+	description: string;
+	image: string;
+	imageAlt: string;
+}
+
+const eventsData: event[] = [
 	{
 		type: 'Conference',
 		title: 'DevFest Saudi 🎉',

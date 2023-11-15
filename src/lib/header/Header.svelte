@@ -3,7 +3,7 @@
 	import Close from '~icons/ri/close-fill';
 
 	import DarkToggle from './DarkToggle.svelte';
-	import navLinks from '../../data/nav';
+	import navLinks from '$data/nav';
 
 	let isMenuOpen = false;
 </script>
