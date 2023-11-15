@@ -3,8 +3,9 @@
 	import Header from '$lib/header';
 	import Events from '$lib/events';
 	import Projects from '$lib/projects';
+	import Team from '$lib/team';
 
-	const title = 'GDSC Al-Yamamah University';
+	const title = 'Google DSC | Al Yamamah';
 	const description =
 		"Welcome to the official website of Al Yamamah's University Google Developer Student Club!";
 </script>
@@ -19,3 +20,4 @@
 <Home />
 <Events />
 <Projects />
+<Team />
