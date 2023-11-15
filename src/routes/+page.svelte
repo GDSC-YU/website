@@ -1,1 +1,7 @@
-<h1 class="p-4 text-center text-4xl">Great things are coming here!</h1>
+<script lang="ts">
+	import Home from '$lib/home';
+	import Header from '$lib/header';
+</script>
+
+<Header />
+<Home />
