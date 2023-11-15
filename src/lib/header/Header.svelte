@@ -1,4 +1,6 @@
 <script>
+	import { onMount, onDestroy } from 'svelte';
+
 	import Menu from '~icons/ri/menu-4-fill';
 	import Close from '~icons/ri/close-fill';
 
@@ -6,13 +8,36 @@
 	import navLinks from '$data/nav';
 
 	let isMenuOpen = false;
+
+	const toggleMenu = () => {
+		isMenuOpen = !isMenuOpen;
+		if (typeof window !== 'undefined') {
+			if (isMenuOpen) {
+				document.body.style.overflow = 'hidden';
+			} else {
+				document.body.style.overflow = '';
+			}
+		}
+	};
+
+	onDestroy(() => {
+		if (typeof window !== 'undefined') {
+			document.body.style.overflow = '';
+		}
+	});
+
+	onMount(() => {
+		if (isMenuOpen && typeof window !== 'undefined') {
+			document.body.style.overflow = 'hidden';
+		}
+	});
 </script>
 
 <header class="font-bold">
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
 			<DarkToggle />
-			<button id="menu" aria-label="Toggle Menu" on:click={() => (isMenuOpen = !isMenuOpen)}>
+			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
 				<Menu
 					class={`${
 						isMenuOpen ? 'hidden' : ''
@@ -31,7 +56,11 @@
 			class:hidden={!isMenuOpen}
 		>
 			{#each navLinks as { name, href }}
-				<a {href} class="text-2xl transition duration-300 ease-in-out lg:hover:scale-110">
+				<a
+					{href}
+					on:click={toggleMenu}
+					class="text-2xl transition duration-300 ease-in-out lg:hover:scale-110"
+				>
 					{name}
 				</a>
 			{/each}
