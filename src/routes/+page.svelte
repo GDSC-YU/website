@@ -4,6 +4,7 @@
 	import Events from '$lib/events';
 	import Projects from '$lib/projects';
 	import Team from '$lib/team';
+	import Connect from '$lib/connect';
 
 	const title = 'Google DSC | Al Yamamah';
 	const description =
@@ -21,3 +22,4 @@
 <Events />
 <Projects />
 <Team />
+<Connect />
