@@ -5,3 +5,50 @@
 body {
 	@apply bg-slate-200 text-black dark:bg-secret dark:text-slate-200;
 }
+
+/* default spacer for all devices */
+.spacer {
+	aspect-ratio: 960/100;
+	@apply w-full bg-cover bg-center bg-no-repeat;
+}
+
+/* changing ratio for mobile devices */
+@media screen and (max-width: 767px) {
+	.spacer {
+		aspect-ratio: 960/200;
+	}
+}
+
+/* a bunch of layers :D */
+
+.blue-layer1 {
+	background-image: url('/images/layers/blue-layer.svg');
+}
+.blue-layer2 {
+	background-image: url('/images/layers/blue-layer.svg');
+	transform: rotate(180deg);
+}
+
+.red-layer1 {
+	background-image: url('/images/layers/red-layer.svg');
+}
+.red-layer2 {
+	background-image: url('/images/layers/red-layer.svg');
+	transform: rotate(180deg);
+}
+
+.yellow-layer1 {
+	background-image: url('/images/layers/yellow-layer.svg');
+}
+.yellow-layer2 {
+	background-image: url('/images/layers/yellow-layer.svg');
+	transform: rotate(180deg);
+}
+
+.green-layer1 {
+	background-image: url('/images/layers/green-layer.svg');
+}
+.green-layer2 {
+	background-image: url('/images/layers/green-layer.svg');
+	transform: rotate(180deg);
+}
