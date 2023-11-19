@@ -13,7 +13,7 @@
 {/if}
 
 <div class="grid w-full flex-wrap justify-items-center gap-y-4 md:grid-cols-2 lg:grid-cols-3">
-	{#if team === 'The Board 💼' || team === ''}
+	{#if team === ''}
 		{#each leads as member}
 			<TeamMember
 				img={member.image}
