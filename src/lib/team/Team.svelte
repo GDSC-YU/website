@@ -4,15 +4,17 @@
 	import TeamButton from './ui/TeamButton.svelte';
 
 	let areShown = false;
+	let teamSection: HTMLElement;
+
 	const toggleMembers = () => {
 		areShown = !areShown;
-		if(!areShown){
-			document.getElementById('team')?.scrollIntoView(true);
+		if (!areShown) {
+			teamSection.scrollIntoView();
 		}
-	}
+	};
 </script>
 
-<section id="team">
+<section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
 	<Spacer title="Meet The Team!" color="yellow" />
 	<!-- Content -->
@@ -24,6 +26,6 @@
 			<TeamContainer team="Communications and PR 📧" />
 			<TeamContainer team="Content Creators 🤳" />
 		{/if}
-		<TeamButton showMembers={areShown} onClick={toggleMembers}/>
+		<TeamButton showMembers={areShown} onClick={toggleMembers} />
 	</div>
 </section>
