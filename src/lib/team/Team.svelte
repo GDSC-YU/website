@@ -1,10 +1,15 @@
-<script>
+<script lang="ts">
 	import Spacer from '$lib/Spacer.svelte';
 	import TeamContainer from './ui/TeamContainer.svelte';
 	import TeamButton from './ui/TeamButton.svelte';
 
 	let areShown = false;
-	const toggleMembers = () => areShown = !areShown;
+	const toggleMembers = () => {
+		areShown = !areShown;
+		if(!areShown){
+			document.getElementById('team')?.scrollIntoView(true);
+		}
+	}
 </script>
 
 <section id="team">
@@ -19,6 +24,6 @@
 			<TeamContainer team="Communications and PR 📧" />
 			<TeamContainer team="Content Creators 🤳" />
 		{/if}
-		<TeamButton showMembers={areShown} onClick={toggleMembers} href={(areShown? '###' : '#team')}/>
+		<TeamButton showMembers={areShown} onClick={toggleMembers}/>
 	</div>
 </section>
