@@ -6,6 +6,8 @@
 	import Team from '$lib/team';
 	import Connect from '$lib/connect';
 
+	import ScrollUp from '$lib/ScrollUp.svelte';
+
 	const title = 'Google DSC | Al Yamamah';
 	const description =
 		"Welcome to the official website of Al Yamamah's University Google Developer Student Club!";
@@ -23,3 +25,5 @@
 <Projects />
 <Team />
 <Connect />
+
+<ScrollUp />

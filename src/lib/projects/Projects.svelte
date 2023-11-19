@@ -7,7 +7,7 @@
 	import LinkIcon from '~icons/ri/external-link-line';
 </script>
 
-<section id="Projects" aria-label="Projects Showcase Section">
+<section id="projects">
 	<!-- Wave Shape And Heading Text -->
 	<Spacer title="Explore Our Projects 🚀" color="red" />
 	<!-- Content -->
