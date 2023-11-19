@@ -2,7 +2,6 @@
 	import Spacer from '$lib/Spacer.svelte';
 	import TeamContainer from './ui/TeamContainer.svelte';
 	import TeamButton from './ui/TeamButton.svelte';
-	import navLinks from '$data/nav';
 
 	let areShown = false;
 	const toggleMembers = () => areShown = !areShown;
