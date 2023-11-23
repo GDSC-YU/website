@@ -2,6 +2,7 @@ export const leads = [
 	{
 		name: 'Yazeed Al-Khalaf',
 		position: 'Club Lead',
+		year: '2022-2023',
 		image: '/images/humans/leads/Yazeed Al-Khalaf.jpeg',
 		social: {
 			twitter: 'https://twitter.com/yazeedalkhalaf',
@@ -13,6 +14,7 @@ export const leads = [
 	{
 		name: 'Dhoha Bediwi',
 		position: 'Club Co-Lead',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -24,6 +26,7 @@ export const leads = [
 	{
 		name: 'Khalil Melhem',
 		position: 'Engineering Lead',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: 'https://x.com/iKhalilM',
@@ -35,6 +38,7 @@ export const leads = [
 	{
 		name: 'Basma Al-Hijji',
 		position: 'Public Relations Lead',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -46,6 +50,7 @@ export const leads = [
 	{
 		name: 'Hala Al-Nadeem',
 		position: 'Content Team Lead',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: 'https://twitter.com/AlnadeemHala',
@@ -57,6 +62,7 @@ export const leads = [
 	{
 		name: 'Mishal Al-Harbi',
 		position: 'Event Planning Lead',
+		year: '2022-2023',
 		image: '/images/humans/leads/Mishal Al-Harbi.jpg',
 		social: {
 			twitter: null,
@@ -68,6 +74,7 @@ export const leads = [
 	{
 		name: 'Mohammed Al-Brahim',
 		position: 'Club Treasurer',
+		year: '2022-2023',
 		image: '/images/humans/leads/Mohammed Al-Brahim.png',
 		social: {
 			twitter: 'https://twitter.com/moh_albrahim',
@@ -82,6 +89,7 @@ export const engineering = [
 	{
 		name: 'Abdullah Meraj',
 		position: 'Engineering Team',
+		year: '2022-2023',
 		image: '/images/humans/Abdullah Miraj.png',
 		social: {
 			twitter: null,
@@ -93,6 +101,7 @@ export const engineering = [
 	{
 		name: 'SalahEddin Thabet',
 		position: 'Engineering Team',
+		year: '2022-2023',
 		image: '/images/humans/SalahEddin Thabet.jpeg',
 		social: {
 			twitter: null,
@@ -107,6 +116,7 @@ export const design = [
 	{
 		name: 'Khaled Hazzam',
 		position: 'Design Team',
+		year: '2022-2023',
 		image: '/images/humans/Khaled Hazzam.jpg',
 		social: {
 			twitter: null,
@@ -118,6 +128,7 @@ export const design = [
 	{
 		name: 'Osama Khlefawi',
 		position: 'Design Team',
+		year: '2022-2023',
 		image: '/images/humans/Osama Khlefawi.jpg',
 		social: {
 			twitter: null,
@@ -129,6 +140,7 @@ export const design = [
 	{
 		name: 'Ward Mousa',
 		position: 'Design Team',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -143,6 +155,7 @@ export const pr = [
 	{
 		name: 'Raghad Al-Saleh',
 		position: 'Public Relations Team',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -154,6 +167,7 @@ export const pr = [
 	{
 		name: 'Rasha Khalid',
 		position: 'Public Relations Team',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -165,6 +179,7 @@ export const pr = [
 	{
 		name: 'Dinah AbuRahmah',
 		position: 'Public Relations Team',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -179,6 +194,7 @@ export const content = [
 	{
 		name: 'Maryam Abdulaziz',
 		position: 'Account Manager',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
@@ -190,6 +206,7 @@ export const content = [
 	{
 		name: 'Maya Al-Saeed',
 		position: 'Account Manager',
+		year: '2022-2023',
 		image: null,
 		social: {
 			twitter: null,
