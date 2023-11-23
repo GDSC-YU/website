@@ -1,7 +1,7 @@
 <script lang="ts">
 	import TeamMember from './TeamMember.svelte';
 
-	import { leads, engineering, design, pr, content } from '$data/team';
+	import { leads, engineering, design, pr, content } from '$data/teams/team';
 
 	export let team: string;
 </script>
