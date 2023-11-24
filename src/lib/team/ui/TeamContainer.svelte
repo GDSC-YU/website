@@ -1,6 +1,7 @@
 <script lang="ts">
 	import TeamMember from './TeamMember.svelte';
 
+	// need to be modified
 	import { leads22, engineering22, design22, pr22, content22 } from '$data/teams/team21-22';
 	import { leads23, engineering23, design23, pr23, content23 } from '$data/teams/team22-23';
 	import { leads24, engineering24, design24, pr24, content24 } from '$data/teams/team23-24';

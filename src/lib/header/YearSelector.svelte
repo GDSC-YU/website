@@ -35,7 +35,7 @@
 				class="block px-4 py-2 text-sm text-gray-700"
 				role="menuitem"
 				tabindex="-1"
-				id="menu-item-0">GDSC 2024-2023</a
+				id="menu-item-0">GDSC 2023-2024</a
 			>
 			<a
 				href="#"
