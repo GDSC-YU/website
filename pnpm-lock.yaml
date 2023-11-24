@@ -8,9 +8,6 @@ devDependencies:
   '@iconify/json':
     specifier: ^2.2.142
     version: 2.2.142
-  '@iconify/svelte':
-    specifier: ^3.1.4
-    version: 3.1.4(svelte@4.2.3)
   '@splidejs/svelte-splide':
     specifier: ^0.2.9
     version: 0.2.9
@@ -312,15 +309,6 @@ packages:
     dependencies:
       '@iconify/types': 2.0.0
       pathe: 1.1.1
-    dev: true
-
-  /@iconify/svelte@3.1.4(svelte@4.2.3):
-    resolution: {integrity: sha512-YDwQlN46ka8KPRayDb7TivmkAPizfTXi6BSRNqa1IV0+byA907n8JcgQafA7FD//pW5XCuuAhVx6uRbKTo+CfA==}
-    peerDependencies:
-      svelte: '*'
-    dependencies:
-      '@iconify/types': 2.0.0
-      svelte: 4.2.3
     dev: true
 
   /@iconify/types@2.0.0:
