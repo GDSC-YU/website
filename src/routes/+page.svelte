@@ -17,6 +17,7 @@
 	<title>{title}</title>
 	<meta name="title" content={title} />
 	<meta name="description" content={description} />
+	<link rel="preload" href="/images/layers/blue-layer.svg" as="image" type="image/svg+xml" />
 </svelte:head>
 
 <Header />
