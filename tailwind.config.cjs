@@ -15,7 +15,6 @@ const config = {
 				'google-green': '#0f9d58',
 				// social media colors
 				'twitter-blue': '#00acee',
-				'github-purple': '#6e5494',
 				'instagram-pink': '#C13584',
 				'linkedin-blue': '#0072b1'
 			}

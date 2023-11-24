@@ -26,7 +26,7 @@ const projectsData: project[] = [
 		imageAlt: 'A ScreenShot Of Tuwaiq Rooms Availability Project',
 
 		GitHub: 'https://github.com/GDSC-YU/tuwaiq-classrooms',
-		Link: 'https://tc.gdscyu.com/'
+		Link: 'https://tc-gdscyu.netlify.app/'
 	},
 	{
 		name: 'Game Camp 👾',
@@ -36,7 +36,7 @@ const projectsData: project[] = [
 		imageAlt: 'A ScreenShot Of Game Camp Project',
 
 		GitHub: 'https://github.com/GDSC-YU/game-camp',
-		Link: 'https://game-camp.gdscyu.com/'
+		Link: 'https://gamecamp-gdscyu.netlify.app/'
 	}
 ];
 
