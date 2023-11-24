@@ -19,12 +19,12 @@
 	<Spacer title="Meet The Team!" color="yellow" />
 	<!-- Content -->
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
-		<TeamContainer team="" />
+		<TeamContainer team="" year="2022-2023" />
 		{#if areShown}
-			<TeamContainer team="Tech Team 💻" />
-			<TeamContainer team="Art Department 🎨" />
-			<TeamContainer team="Communications and PR 📧" />
-			<TeamContainer team="Content Creators 🤳" />
+			<TeamContainer team="Tech Team 💻" year="2022-2023" />
+			<TeamContainer team="Art Department 🎨" year="2022-2023" />
+			<TeamContainer team="Communications and PR 📧" year="2022-2023" />
+			<TeamContainer team="Content Creators 🤳" year="2022-2023" />
 		{/if}
 		<TeamButton showMembers={areShown} onClick={toggleMembers} />
 	</div>

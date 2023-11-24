@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Icon from '@iconify/svelte';
+	import Book from '~icons/ri/book-3-line';
 
 	let isDisplayed = false;
 	const toggleMenu = () => {
@@ -17,7 +17,7 @@
 			aria-haspopup="true"
 			on:click={toggleMenu}
 		>
-			<Icon class="h-9 w-9" icon="material-symbols-light:menu-book-outline-rounded" />
+			<Book class="h-9 w-9" />
 		</button>
 	</div>
 	{#if isDisplayed}
