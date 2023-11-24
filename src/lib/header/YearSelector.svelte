@@ -1,9 +1,14 @@
 <script lang="ts">
 	import Book from '~icons/ri/book-3-line';
+	import { year } from '../store';
 
 	let isDisplayed = true;
 	const toggleMenu = () => {
 		isDisplayed = !isDisplayed;
+	};
+
+	let selectedYear = (y: string) => {
+		year.set(y);
 	};
 </script>
 
@@ -35,21 +40,24 @@
 				class="block px-4 py-2 text-sm text-gray-700"
 				role="menuitem"
 				tabindex="-1"
-				id="menu-item-0">GDSC 2023-2024</a
+				id="menu-item-0"
+				on:click={() => selectedYear('2023-2024')}>GDSC 2023-2024</a
 			>
 			<a
 				href="#"
 				class="block px-4 py-2 text-sm text-gray-700"
 				role="menuitem"
 				tabindex="-1"
-				id="menu-item-1">GDSC 2022-2023</a
+				id="menu-item-1"
+				on:click={() => selectedYear('2022-2023')}>GDSC 2022-2023</a
 			>
 			<a
 				href="#"
 				class="block px-4 py-2 text-sm text-gray-700"
 				role="menuitem"
 				tabindex="-1"
-				id="menu-item-2">GDSC 2021-2022</a
+				id="menu-item-2"
+				on:click={() => selectedYear('2021-2022')}>GDSC 2021-2022</a
 			>
 		</div>
 	</div>
