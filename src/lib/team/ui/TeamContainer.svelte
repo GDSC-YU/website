@@ -3,12 +3,39 @@
 	import { year } from '$lib/store.js';
 
 	// need to be modified
-	import { leads22, engineering22, design22, pr22, content22 } from '$data/teams/team21-22';
-	import { leads23, engineering23, design23, pr23, content23 } from '$data/teams/team22-23';
-	import { leads24, engineering24, design24, pr24, content24 } from '$data/teams/team23-24';
+	import { leads21, engineering21, design21, pr21, content21 } from '$data/teams/team21';
+	import { leads22, engineering22, design22, pr22, content22 } from '$data/teams/team22';
+	import { leads23, engineering23, design23, pr23, content23 } from '$data/teams/team23';
 
 	export let team: string;
-	// function
+
+	let leads: ArrayLike<unknown>;
+	let engineering: ArrayLike<unknown>;
+	let design: ArrayLike<unknown>;
+	let pr: ArrayLike<unknown>;
+	let content: ArrayLike<unknown>;
+
+	/*{#if $year === '2023-2024'}
+	{leads} = {leads23}
+	{engineering} = {engineering23}
+	{design} = {design23}
+	{pr} = {pr23}
+	{content} = {content23}
+{/if}
+{#if $year === '2023-2024'}
+	{leads} = {leads22}
+	{engineering} = {engineering22}
+	{design} = {design22}
+	{pr} = {pr22}
+	{content} = {content22}
+{/if}
+{#if $year === '2023-2024'}
+	{leads} = {leads21}
+	{engineering} = {engineering21}
+	{design} = {design21}
+	{pr} = {pr21}
+	{content} = {content21}
+{/if}*/
 </script>
 
 {#if team}

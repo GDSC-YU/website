@@ -1,4 +1,4 @@
-export const leads22 = [
+export const leads21 = [
 	{
 		name: 'Yazeed Al-Khalaf22',
 		position: 'Club Lead',
@@ -85,7 +85,7 @@ export const leads22 = [
 	}
 ];
 
-export const engineering22 = [
+export const engineering21 = [
 	{
 		name: 'Abdullah Meraj22',
 		position: 'Engineering Team',
@@ -112,7 +112,7 @@ export const engineering22 = [
 	}
 ];
 
-export const design22 = [
+export const design21 = [
 	{
 		name: 'Khaled Hazzam22',
 		position: 'Design Team',
@@ -151,7 +151,7 @@ export const design22 = [
 	}
 ];
 
-export const pr22 = [
+export const pr21 = [
 	{
 		name: 'Raghad Al-Saleh22',
 		position: 'Public Relations Team',
@@ -190,7 +190,7 @@ export const pr22 = [
 	}
 ];
 
-export const content22 = [
+export const content21 = [
 	{
 		name: 'Maryam Abdulaziz22',
 		position: 'Account Manager',
