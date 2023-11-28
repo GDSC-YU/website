@@ -5,6 +5,7 @@
 	import Projects from '$lib/projects';
 	import Team from '$lib/team';
 	import Connect from '$lib/connect';
+	import { year } from '$lib/store';
 
 	import ScrollUp from '$lib/ScrollUp.svelte';
 
@@ -12,14 +13,7 @@
 	const description =
 		"Welcome to the official website of Al Yamamah's University Google Developer Student Club!";
 
-	let now = new Date();
-	let year = now.getFullYear();
-	let month = (now.getMonth() + 1).toString().padStart(2, '0'); //Pad a string with "0" until it reaches the length 2
-	let currYear = '2023-2024';
-
-	if (month == '09') {
-		currYear = year + '-' + (year + 1);
-	}
+	year.set('2023-2024');
 </script>
 
 <svelte:head>
@@ -32,7 +26,7 @@
 <Home />
 <Events />
 <Projects />
-<Team year={currYear} />
+<Team />
 <Connect />
 
 <ScrollUp />

@@ -1,5 +1,6 @@
 <script lang="ts">
 	import TeamMember from './TeamMember.svelte';
+	import { year } from '$lib/store.js';
 
 	// need to be modified
 	import { leads22, engineering22, design22, pr22, content22 } from '$data/teams/team21-22';
@@ -7,7 +8,7 @@
 	import { leads24, engineering24, design24, pr24, content24 } from '$data/teams/team23-24';
 
 	export let team: string;
-	export let year: string;
+	// function
 </script>
 
 {#if team}
@@ -17,7 +18,7 @@
 {/if}
 
 <div class="grid w-full flex-wrap justify-items-center gap-y-4 md:grid-cols-2 lg:grid-cols-3">
-	{#if team === '' && year === '2022-2023'}
+	{#if team === ''}
 		{#each leads23 as member}
 			<TeamMember
 				img={member.image}
@@ -31,7 +32,7 @@
 		{/each}
 	{/if}
 
-	{#if team === 'Tech Team 💻' && year === '2022-2023'}
+	{#if team === 'Tech Team 💻'}
 		{#each [...leads23, ...engineering23] as member}
 			{#if member.position.includes('Engineering ')}
 				<TeamMember
@@ -47,7 +48,7 @@
 		{/each}
 	{/if}
 
-	{#if team === 'Art Department 🎨' && year === '2022-2023'}
+	{#if team === 'Art Department 🎨'}
 		{#each [...leads23, ...design23] as member}
 			{#if member.position.includes('Design')}
 				<TeamMember
@@ -63,7 +64,7 @@
 		{/each}
 	{/if}
 
-	{#if team === 'Communications and PR 📧' && year === '2022-2023'}
+	{#if team === 'Communications and PR 📧'}
 		{#each [...leads23, ...pr23] as member}
 			{#if member.position.includes('Public Relations')}
 				<TeamMember
@@ -79,7 +80,7 @@
 		{/each}
 	{/if}
 
-	{#if team === 'Content Creators 🤳' && year === '2022-2023'}
+	{#if team === 'Content Creators 🤳'}
 		{#each [...leads23, ...content23] as member}
 			{#if member.position.includes('Content') || member.position.includes('Account')}
 				<TeamMember

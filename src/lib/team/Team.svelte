@@ -3,8 +3,6 @@
 	import TeamContainer from './ui/TeamContainer.svelte';
 	import TeamButton from './ui/TeamButton.svelte';
 
-	export let year: string;
-
 	let areShown = false;
 	let teamSection: HTMLElement;
 
@@ -21,12 +19,12 @@
 	<Spacer title="Meet The Team!" color="yellow" />
 	<!-- Content -->
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
-		<TeamContainer team="" {year} />
+		<TeamContainer team="" />
 		{#if areShown}
-			<TeamContainer team="Tech Team 💻" {year} />
-			<TeamContainer team="Art Department 🎨" {year} />
-			<TeamContainer team="Communications and PR 📧" {year} />
-			<TeamContainer team="Content Creators 🤳" {year} />
+			<TeamContainer team="Tech Team 💻" />
+			<TeamContainer team="Art Department 🎨" />
+			<TeamContainer team="Communications and PR 📧" />
+			<TeamContainer team="Content Creators 🤳" />
 		{/if}
 		<TeamButton showMembers={areShown} onClick={toggleMembers} />
 	</div>
