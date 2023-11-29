@@ -9,33 +9,33 @@
 
 	export let team: string;
 
-	let leads: ArrayLike<unknown>;
-	let engineering: ArrayLike<unknown>;
-	let design: ArrayLike<unknown>;
-	let pr: ArrayLike<unknown>;
-	let content: ArrayLike<unknown>;
+	let selectedLeads: any[] = [];
+	let selectedEng: any[] = [];
+	let selectedDesign: any[] = [];
+	let selectedPr: any[] = [];
+	let selectedContent: any[] = [];
 
-	/*{#if $year === '2023-2024'}
-	{leads} = {leads23}
-	{engineering} = {engineering23}
-	{design} = {design23}
-	{pr} = {pr23}
-	{content} = {content23}
-{/if}
-{#if $year === '2023-2024'}
-	{leads} = {leads22}
-	{engineering} = {engineering22}
-	{design} = {design22}
-	{pr} = {pr22}
-	{content} = {content22}
-{/if}
-{#if $year === '2023-2024'}
-	{leads} = {leads21}
-	{engineering} = {engineering21}
-	{design} = {design21}
-	{pr} = {pr21}
-	{content} = {content21}
-{/if}*/
+	year.subscribe((y) => {
+		if (y === '2021-2022') {
+			selectedLeads = leads21;
+			selectedEng = engineering21;
+			selectedDesign = design21;
+			selectedPr = pr21;
+			selectedContent = content21;
+		} else if (y === '2022-2023') {
+			selectedLeads = leads22;
+			selectedEng = engineering22;
+			selectedDesign = design22;
+			selectedPr = pr22;
+			selectedContent = content22;
+		} else {
+			selectedLeads = leads23;
+			selectedEng = engineering23;
+			selectedDesign = design23;
+			selectedPr = pr23;
+			selectedContent = content23;
+		}
+	});
 </script>
 
 {#if team}
@@ -46,7 +46,7 @@
 
 <div class="grid w-full flex-wrap justify-items-center gap-y-4 md:grid-cols-2 lg:grid-cols-3">
 	{#if team === ''}
-		{#each leads23 as member}
+		{#each selectedLeads as member}
 			<TeamMember
 				img={member.image}
 				name={member.name}
@@ -60,7 +60,7 @@
 	{/if}
 
 	{#if team === 'Tech Team 💻'}
-		{#each [...leads23, ...engineering23] as member}
+		{#each [...selectedLeads, ...selectedEng] as member}
 			{#if member.position.includes('Engineering ')}
 				<TeamMember
 					img={member.image}
@@ -76,7 +76,7 @@
 	{/if}
 
 	{#if team === 'Art Department 🎨'}
-		{#each [...leads23, ...design23] as member}
+		{#each [...selectedLeads, ...selectedDesign] as member}
 			{#if member.position.includes('Design')}
 				<TeamMember
 					img={member.image}
@@ -92,7 +92,7 @@
 	{/if}
 
 	{#if team === 'Communications and PR 📧'}
-		{#each [...leads23, ...pr23] as member}
+		{#each [...selectedLeads, ...selectedPr] as member}
 			{#if member.position.includes('Public Relations')}
 				<TeamMember
 					img={member.image}
@@ -108,7 +108,7 @@
 	{/if}
 
 	{#if team === 'Content Creators 🤳'}
-		{#each [...leads23, ...content23] as member}
+		{#each [...selectedLeads, ...selectedContent] as member}
 			{#if member.position.includes('Content') || member.position.includes('Account')}
 				<TeamMember
 					img={member.image}
