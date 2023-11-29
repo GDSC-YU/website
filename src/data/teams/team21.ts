@@ -1,6 +1,6 @@
 export const leads21 = [
 	{
-		name: 'Yazeed Al-Khalaf22',
+		name: 'Yazeed Al-Khalaf21',
 		position: 'Club Lead',
 		year: '2021-2022',
 		image: '/images/humans/leads/Yazeed Al-Khalaf.jpeg',
@@ -12,7 +12,7 @@ export const leads21 = [
 		}
 	},
 	{
-		name: 'Dhoha Bediwi22',
+		name: 'Dhoha Bediwi21',
 		position: 'Club Co-Lead',
 		year: '2021-2022',
 		image: null,
@@ -24,7 +24,7 @@ export const leads21 = [
 		}
 	},
 	{
-		name: 'Khalil Melhem22',
+		name: 'Khalil Melhem21',
 		position: 'Engineering Lead',
 		year: '2021-2022',
 		image: null,
@@ -36,7 +36,7 @@ export const leads21 = [
 		}
 	},
 	{
-		name: 'Basma Al-Hijji22',
+		name: 'Basma Al-Hijji21',
 		position: 'Public Relations Lead',
 		year: '2021-2022',
 		image: null,
@@ -48,7 +48,7 @@ export const leads21 = [
 		}
 	},
 	{
-		name: 'Hala Al-Nadeem22',
+		name: 'Hala Al-Nadeem21',
 		position: 'Content Team Lead',
 		year: '2021-2022',
 		image: null,
@@ -60,7 +60,7 @@ export const leads21 = [
 		}
 	},
 	{
-		name: 'Mishal Al-Harbi22',
+		name: 'Mishal Al-Harbi21',
 		position: 'Event Planning Lead',
 		year: '2021-2022',
 		image: '/images/humans/leads/Mishal Al-Harbi.jpg',
@@ -72,7 +72,7 @@ export const leads21 = [
 		}
 	},
 	{
-		name: 'Mohammed Al-Brahim22',
+		name: 'Mohammed Al-Brahim21',
 		position: 'Club Treasurer',
 		year: '2021-2022',
 		image: '/images/humans/leads/Mohammed Al-Brahim.png',
@@ -87,7 +87,7 @@ export const leads21 = [
 
 export const engineering21 = [
 	{
-		name: 'Abdullah Meraj22',
+		name: 'Abdullah Meraj21',
 		position: 'Engineering Team',
 		year: '2021-2022',
 		image: '/images/humans/Abdullah Miraj.png',
@@ -99,7 +99,7 @@ export const engineering21 = [
 		}
 	},
 	{
-		name: 'SalahEddin Thabet22',
+		name: 'SalahEddin Thabet21',
 		position: 'Engineering Team',
 		year: '2021-2022',
 		image: '/images/humans/SalahEddin Thabet.jpeg',
@@ -114,7 +114,7 @@ export const engineering21 = [
 
 export const design21 = [
 	{
-		name: 'Khaled Hazzam22',
+		name: 'Khaled Hazzam21',
 		position: 'Design Team',
 		year: '2021-2022',
 		image: '/images/humans/Khaled Hazzam.jpg',
@@ -126,7 +126,7 @@ export const design21 = [
 		}
 	},
 	{
-		name: 'Osama Khlefawi22',
+		name: 'Osama Khlefawi21',
 		position: 'Design Team',
 		year: '2021-2022',
 		image: '/images/humans/Osama Khlefawi.jpg',
@@ -138,7 +138,7 @@ export const design21 = [
 		}
 	},
 	{
-		name: 'Ward Mousa22',
+		name: 'Ward Mousa21',
 		position: 'Design Team',
 		year: '2021-2022',
 		image: null,
@@ -153,7 +153,7 @@ export const design21 = [
 
 export const pr21 = [
 	{
-		name: 'Raghad Al-Saleh22',
+		name: 'Raghad Al-Saleh21',
 		position: 'Public Relations Team',
 		year: '2021-2022',
 		image: null,
@@ -165,7 +165,7 @@ export const pr21 = [
 		}
 	},
 	{
-		name: 'Rasha Khalid22',
+		name: 'Rasha Khalid21',
 		position: 'Public Relations Team',
 		year: '2021-2022',
 		image: null,
@@ -177,7 +177,7 @@ export const pr21 = [
 		}
 	},
 	{
-		name: 'Dinah AbuRahmah22',
+		name: 'Dinah AbuRahmah21',
 		position: 'Public Relations Team',
 		year: '2021-2022',
 		image: null,
@@ -192,7 +192,7 @@ export const pr21 = [
 
 export const content21 = [
 	{
-		name: 'Maryam Abdulaziz22',
+		name: 'Maryam Abdulaziz21',
 		position: 'Account Manager',
 		year: '2021-2022',
 		image: null,
@@ -204,7 +204,7 @@ export const content21 = [
 		}
 	},
 	{
-		name: 'Maya Al-Saeed22',
+		name: 'Maya Al-Saeed21',
 		position: 'Account Manager',
 		year: '2021-2022',
 		image: null,

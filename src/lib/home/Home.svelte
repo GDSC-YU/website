@@ -3,6 +3,12 @@
 	import ARview from './ui/ARview.svelte';
 	import HomeButton from './ui/HomeButton.svelte';
 	import Google from './ui/Google.svelte';
+	import { year } from '$lib/store';
+
+	let selectedYear = '';
+	year.subscribe((value) => {
+		selectedYear = value;
+	});
 </script>
 
 <section
@@ -21,7 +27,7 @@
 			>Al-Yamamah University
 		</a>
 		<Google />
-		<h1 class="text-4xl font-bold lg:text-6xl">Student Club</h1>
+		<h1 class="text-4xl font-bold lg:text-6xl">Student Club {selectedYear}</h1>
 		<p class="text-xl font-bold lg:text-3xl">Learn, Grow, and Connect!</p>
 		<HomeButton />
 	</div>

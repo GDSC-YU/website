@@ -2,6 +2,7 @@
 	import Spacer from '$lib/Spacer.svelte';
 	import TeamContainer from './ui/TeamContainer.svelte';
 	import TeamButton from './ui/TeamButton.svelte';
+	import { year } from '$lib/store';
 
 	let areShown = false;
 	let teamSection: HTMLElement;
@@ -12,11 +13,19 @@
 			teamSection.scrollIntoView();
 		}
 	};
+
+	let selectedYear = '';
+	year.subscribe((value) => {
+		selectedYear = value;
+	});
 </script>
 
 <section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
-	<Spacer title="Meet The Team!" color="yellow" />
+	<Spacer
+		title={selectedYear === '2023-2024' ? 'Meet The Team!' : 'GDSC ' + selectedYear + ' team'}
+		color="yellow"
+	/>
 	<!-- Content -->
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
 		<TeamContainer team="" />
