@@ -1,8 +1,10 @@
-export const leads22 = [
+import type { TeamMember } from './index';
+
+export const leads22: TeamMember[] = [
 	{
-		name: 'Yazeed Al-Khalaf22',
+		name: 'Yazeed Al-Khalaf',
 		position: 'Club Lead',
-		year: '2022-2023',
+		team: ['Leads'],
 		image: '/images/humans/leads/Yazeed Al-Khalaf.jpeg',
 		social: {
 			twitter: 'https://twitter.com/yazeedalkhalaf',
@@ -12,9 +14,9 @@ export const leads22 = [
 		}
 	},
 	{
-		name: 'Dhoha Bediwi22',
+		name: 'Dhoha Bediwi',
 		position: 'Club Co-Lead',
-		year: '2022-2023',
+		team: ['Leads'],
 		image: null,
 		social: {
 			twitter: null,
@@ -24,9 +26,9 @@ export const leads22 = [
 		}
 	},
 	{
-		name: 'Khalil Melhem22',
+		name: 'Khalil Melhem',
 		position: 'Engineering Lead',
-		year: '2022-2023',
+		team: ['Leads', 'Engineering'],
 		image: null,
 		social: {
 			twitter: 'https://x.com/iKhalilM',
@@ -36,9 +38,9 @@ export const leads22 = [
 		}
 	},
 	{
-		name: 'Basma Al-Hijji22',
+		name: 'Basma Al-Hijji',
 		position: 'Public Relations Lead',
-		year: '2022-2023',
+		team: ['Leads', 'Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -48,9 +50,9 @@ export const leads22 = [
 		}
 	},
 	{
-		name: 'Hala Al-Nadeem22',
+		name: 'Hala Al-Nadeem',
 		position: 'Content Team Lead',
-		year: '2022-2023',
+		team: ['Leads', 'Content'],
 		image: null,
 		social: {
 			twitter: 'https://twitter.com/AlnadeemHala',
@@ -60,9 +62,9 @@ export const leads22 = [
 		}
 	},
 	{
-		name: 'Mishal Al-Harbi22',
+		name: 'Mishal Al-Harbi',
 		position: 'Event Planning Lead',
-		year: '2022-2023',
+		team: ['Leads', 'Pr'],
 		image: '/images/humans/leads/Mishal Al-Harbi.jpg',
 		social: {
 			twitter: null,
@@ -72,9 +74,9 @@ export const leads22 = [
 		}
 	},
 	{
-		name: 'Mohammed Al-Brahim22',
+		name: 'Mohammed Al-Brahim',
 		position: 'Club Treasurer',
-		year: '2022-2023',
+		team: ['Leads', 'Pr'],
 		image: '/images/humans/leads/Mohammed Al-Brahim.png',
 		social: {
 			twitter: 'https://twitter.com/moh_albrahim',
@@ -85,11 +87,11 @@ export const leads22 = [
 	}
 ];
 
-export const engineering22 = [
+export const engineering22: TeamMember[] = [
 	{
-		name: 'Abdullah Meraj22',
+		name: 'Abdullah Meraj',
 		position: 'Engineering Team',
-		year: '2022-2023',
+		team: ['Engineering'],
 		image: '/images/humans/Abdullah Miraj.png',
 		social: {
 			twitter: null,
@@ -99,9 +101,9 @@ export const engineering22 = [
 		}
 	},
 	{
-		name: 'SalahEddin Thabet22',
+		name: 'SalahEddin Thabet',
 		position: 'Engineering Team',
-		year: '2022-2023',
+		team: ['Engineering'],
 		image: '/images/humans/SalahEddin Thabet.jpeg',
 		social: {
 			twitter: null,
@@ -112,11 +114,11 @@ export const engineering22 = [
 	}
 ];
 
-export const design22 = [
+export const design22: TeamMember[] = [
 	{
-		name: 'Khaled Hazzam22',
+		name: 'Khaled Hazzam',
 		position: 'Design Team',
-		year: '2022-2023',
+		team: ['Design'],
 		image: '/images/humans/Khaled Hazzam.jpg',
 		social: {
 			twitter: null,
@@ -126,9 +128,9 @@ export const design22 = [
 		}
 	},
 	{
-		name: 'Osama Khlefawi22',
+		name: 'Osama Khlefawi',
 		position: 'Design Team',
-		year: '2022-2023',
+		team: ['Design'],
 		image: '/images/humans/Osama Khlefawi.jpg',
 		social: {
 			twitter: null,
@@ -138,9 +140,9 @@ export const design22 = [
 		}
 	},
 	{
-		name: 'Ward Mousa22',
+		name: 'Ward Mousa',
 		position: 'Design Team',
-		year: '2022-2023',
+		team: ['Design'],
 		image: null,
 		social: {
 			twitter: null,
@@ -151,11 +153,11 @@ export const design22 = [
 	}
 ];
 
-export const pr22 = [
+export const pr22: TeamMember[] = [
 	{
-		name: 'Raghad Al-Saleh22',
+		name: 'Raghad Al-Saleh',
 		position: 'Public Relations Team',
-		year: '2022-2023',
+		team: ['Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -165,9 +167,9 @@ export const pr22 = [
 		}
 	},
 	{
-		name: 'Rasha Khalid22',
+		name: 'Rasha Khalid',
 		position: 'Public Relations Team',
-		year: '2022-2023',
+		team: ['Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -177,9 +179,9 @@ export const pr22 = [
 		}
 	},
 	{
-		name: 'Dinah AbuRahmah22',
+		name: 'Dinah AbuRahmah',
 		position: 'Public Relations Team',
-		year: '2022-2023',
+		team: ['Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -190,23 +192,23 @@ export const pr22 = [
 	}
 ];
 
-export const content22 = [
+export const content22: TeamMember[] = [
 	{
-		name: 'Maryam Abdulaziz22',
+		name: 'Maryam Abdulaziz',
 		position: 'Account Manager',
-		year: '2022-2023',
+		team: ['Content'],
 		image: null,
 		social: {
-			twitter: null,
-			github: null,
+			twitter: 'https://twitter.com/Maryy_2k',
+			github: 'https://github.com/MaryyKookie2',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/maryam-mostafa-abdulmoniem-076695254'
+			linkedin: 'https://linkedin.com/in/maryam-mostafa-abdulaziz-076695254'
 		}
 	},
 	{
-		name: 'Maya Al-Saeed22',
+		name: 'Maya Al-Saeed',
 		position: 'Account Manager',
-		year: '2022-2023',
+		team: ['Content'],
 		image: null,
 		social: {
 			twitter: null,

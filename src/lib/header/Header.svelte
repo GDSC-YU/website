@@ -6,7 +6,6 @@
 
 	import DarkToggle from './DarkToggle.svelte';
 	import navLinks from '$data/nav';
-	import YearSelector from './YearSelector.svelte';
 
 	let isMenuOpen = false;
 
@@ -37,10 +36,7 @@
 <header class="font-bold">
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
-			<div class="flex gap-3">
-				<DarkToggle />
-				<YearSelector />
-			</div>
+			<DarkToggle />
 			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
 				<Menu
 					class={`${

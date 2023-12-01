@@ -5,15 +5,12 @@
 	import Projects from '$lib/projects';
 	import Team from '$lib/team';
 	import Connect from '$lib/connect';
-	import { year } from '$lib/store';
 
 	import ScrollUp from '$lib/ScrollUp.svelte';
 
 	const title = 'Google DSC | Al Yamamah';
 	const description =
 		"Welcome to the official website of Al Yamamah's University Google Developer Student Club!";
-
-	year.set('2023-2024');
 </script>
 
 <svelte:head>

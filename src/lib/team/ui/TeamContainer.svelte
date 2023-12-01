@@ -1,41 +1,45 @@
 <script lang="ts">
-	import TeamMember from './TeamMember.svelte';
-	import { year } from '$lib/store.js';
+	import TeamMemberComponent from './TeamMember.svelte';
 
-	// need to be modified
-	import { leads21, engineering21, design21, pr21, content21 } from '$data/teams/team21';
-	import { leads22, engineering22, design22, pr22, content22 } from '$data/teams/team22';
-	import { leads23, engineering23, design23, pr23, content23 } from '$data/teams/team23';
+	import { year } from '$lib/store';
+
+	import { teamData } from '$data/teams/index';
+	import type { TeamMember, TeamData } from '$data/teams/index';
 
 	export let team: string;
+	let selectedTeamMembers: TeamMember[];
 
-	let selectedLeads: any[] = [];
-	let selectedEng: any[] = [];
-	let selectedDesign: any[] = [];
-	let selectedPr: any[] = [];
-	let selectedContent: any[] = [];
+	const teamKeyMapping: Record<string, string> = {
+		'Tech Team 💻': 'Engineering',
+		'Art Department 🎨': 'Design',
+		'Communications and PR 📧': 'Pr',
+		'Content Creators 🤳': 'Content'
+	};
 
-	year.subscribe((y) => {
-		if (y === '2021-2022') {
-			selectedLeads = leads21;
-			selectedEng = engineering21;
-			selectedDesign = design21;
-			selectedPr = pr21;
-			selectedContent = content21;
-		} else if (y === '2022-2023') {
-			selectedLeads = leads22;
-			selectedEng = engineering22;
-			selectedDesign = design22;
-			selectedPr = pr22;
-			selectedContent = content22;
-		} else {
-			selectedLeads = leads23;
-			selectedEng = engineering23;
-			selectedDesign = design23;
-			selectedPr = pr23;
-			selectedContent = content23;
+	const getTeamMembers = (year: string, team: string): TeamMember[] => {
+		const teams: TeamData = teamData[year as keyof typeof teamData];
+
+		if (!teams) {
+			return [];
 		}
-	});
+
+		if (team === '') {
+			return teams.Leads;
+		}
+
+		const teamKeyword = teamKeyMapping[team];
+
+		if (teamKeyword === 'Leads') {
+			return teams.Leads;
+		} else {
+			const relevantLeads = teams.Leads.filter((lead) => lead.team.includes(teamKeyword));
+			const teamMembers = (teams as any)[teamKeyword] || [];
+
+			return [...relevantLeads, ...teamMembers];
+		}
+	};
+
+	$: selectedTeamMembers = getTeamMembers($year, team);
 </script>
 
 {#if team}
@@ -45,81 +49,15 @@
 {/if}
 
 <div class="grid w-full flex-wrap justify-items-center gap-y-4 md:grid-cols-2 lg:grid-cols-3">
-	{#if team === ''}
-		{#each selectedLeads as member}
-			<TeamMember
-				img={member.image}
-				name={member.name}
-				position={member.position}
-				twitter={member.social.twitter}
-				github={member.social.github}
-				instagram={member.social.instagram}
-				linkedin={member.social.linkedin}
-			/>
-		{/each}
-	{/if}
-
-	{#if team === 'Tech Team 💻'}
-		{#each [...selectedLeads, ...selectedEng] as member}
-			{#if member.position.includes('Engineering ')}
-				<TeamMember
-					img={member.image}
-					name={member.name}
-					position={member.position}
-					twitter={member.social.twitter}
-					github={member.social.github}
-					instagram={member.social.instagram}
-					linkedin={member.social.linkedin}
-				/>
-			{/if}
-		{/each}
-	{/if}
-
-	{#if team === 'Art Department 🎨'}
-		{#each [...selectedLeads, ...selectedDesign] as member}
-			{#if member.position.includes('Design')}
-				<TeamMember
-					img={member.image}
-					name={member.name}
-					position={member.position}
-					twitter={member.social.twitter}
-					github={member.social.github}
-					instagram={member.social.instagram}
-					linkedin={member.social.linkedin}
-				/>
-			{/if}
-		{/each}
-	{/if}
-
-	{#if team === 'Communications and PR 📧'}
-		{#each [...selectedLeads, ...selectedPr] as member}
-			{#if member.position.includes('Public Relations')}
-				<TeamMember
-					img={member.image}
-					name={member.name}
-					position={member.position}
-					twitter={member.social.twitter}
-					github={member.social.github}
-					instagram={member.social.instagram}
-					linkedin={member.social.linkedin}
-				/>
-			{/if}
-		{/each}
-	{/if}
-
-	{#if team === 'Content Creators 🤳'}
-		{#each [...selectedLeads, ...selectedContent] as member}
-			{#if member.position.includes('Content') || member.position.includes('Account')}
-				<TeamMember
-					img={member.image}
-					name={member.name}
-					position={member.position}
-					twitter={member.social.twitter}
-					github={member.social.github}
-					instagram={member.social.instagram}
-					linkedin={member.social.linkedin}
-				/>
-			{/if}
-		{/each}
-	{/if}
+	{#each selectedTeamMembers as member}
+		<TeamMemberComponent
+			img={member.image}
+			name={member.name}
+			position={member.position}
+			twitter={member.social.twitter}
+			github={member.social.github}
+			instagram={member.social.instagram}
+			linkedin={member.social.linkedin}
+		/>
+	{/each}
 </div>
