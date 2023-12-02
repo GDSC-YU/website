@@ -21,7 +21,7 @@
 			>Al-Yamamah University
 		</a>
 		<Google />
-		<h1 class="text-4xl font-bold lg:text-6xl">Student Club</h1>
+		<h1 class="text-4xl font-bold lg:text-6xl">Student Club 🌟</h1>
 		<p class="text-xl font-bold lg:text-3xl">Learn, Grow, and Connect!</p>
 		<HomeButton />
 	</div>

@@ -18,7 +18,7 @@
 		<h1 class="w-full px-2 text-center text-4xl font-bold md:text-5xl">
 			{title}
 		</h1>
-		<!-- middlel layer end -->
+		<!-- middle layer end -->
 	</div>
 	<!-- bottom layer -->
 	<div class={`spacer ${color}-layer2`} />
