@@ -1,8 +1,11 @@
-export const leads = [
+import type { TeamMember } from './index';
+
+export const leads22: TeamMember[] = [
 	{
 		name: 'Yazeed Al-Khalaf',
 		position: 'Club Lead',
-		image: '/images/humans/leads/Yazeed Al-Khalaf.jpeg',
+		team: ['Leads'],
+		image: '/images/humans/Yazeed Al-Khalaf.jpeg',
 		social: {
 			twitter: 'https://twitter.com/yazeedalkhalaf',
 			github: 'https://github.com/YazeedAlKhalaf',
@@ -13,6 +16,7 @@ export const leads = [
 	{
 		name: 'Dhoha Bediwi',
 		position: 'Club Co-Lead',
+		team: ['Leads'],
 		image: null,
 		social: {
 			twitter: null,
@@ -24,6 +28,7 @@ export const leads = [
 	{
 		name: 'Khalil Melhem',
 		position: 'Engineering Lead',
+		team: ['Leads', 'Engineering'],
 		image: null,
 		social: {
 			twitter: 'https://x.com/iKhalilM',
@@ -35,6 +40,7 @@ export const leads = [
 	{
 		name: 'Basma Al-Hijji',
 		position: 'Public Relations Lead',
+		team: ['Leads', 'Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -46,6 +52,7 @@ export const leads = [
 	{
 		name: 'Hala Al-Nadeem',
 		position: 'Content Team Lead',
+		team: ['Leads', 'Content'],
 		image: null,
 		social: {
 			twitter: 'https://twitter.com/AlnadeemHala',
@@ -57,7 +64,8 @@ export const leads = [
 	{
 		name: 'Mishal Al-Harbi',
 		position: 'Event Planning Lead',
-		image: '/images/humans/leads/Mishal Al-Harbi.jpg',
+		team: ['Leads', 'Pr'],
+		image: '/images/humans/Mishal Al-Harbi.jpg',
 		social: {
 			twitter: null,
 			github: null,
@@ -68,7 +76,8 @@ export const leads = [
 	{
 		name: 'Mohammed Al-Brahim',
 		position: 'Club Treasurer',
-		image: '/images/humans/leads/Mohammed Al-Brahim.png',
+		team: ['Leads', 'Pr'],
+		image: '/images/humans/Mohammed Al-Brahim.png',
 		social: {
 			twitter: 'https://twitter.com/moh_albrahim',
 			github: null,
@@ -78,10 +87,11 @@ export const leads = [
 	}
 ];
 
-export const engineering = [
+export const engineering22: TeamMember[] = [
 	{
 		name: 'Abdullah Meraj',
 		position: 'Engineering Team',
+		team: ['Engineering'],
 		image: '/images/humans/Abdullah Miraj.png',
 		social: {
 			twitter: null,
@@ -93,6 +103,7 @@ export const engineering = [
 	{
 		name: 'SalahEddin Thabet',
 		position: 'Engineering Team',
+		team: ['Engineering'],
 		image: '/images/humans/SalahEddin Thabet.jpeg',
 		social: {
 			twitter: null,
@@ -103,10 +114,11 @@ export const engineering = [
 	}
 ];
 
-export const design = [
+export const design22: TeamMember[] = [
 	{
 		name: 'Khaled Hazzam',
 		position: 'Design Team',
+		team: ['Design'],
 		image: '/images/humans/Khaled Hazzam.jpg',
 		social: {
 			twitter: null,
@@ -118,6 +130,7 @@ export const design = [
 	{
 		name: 'Osama Khlefawi',
 		position: 'Design Team',
+		team: ['Design'],
 		image: '/images/humans/Osama Khlefawi.jpg',
 		social: {
 			twitter: null,
@@ -129,6 +142,7 @@ export const design = [
 	{
 		name: 'Ward Mousa',
 		position: 'Design Team',
+		team: ['Design'],
 		image: null,
 		social: {
 			twitter: null,
@@ -139,14 +153,15 @@ export const design = [
 	}
 ];
 
-export const pr = [
+export const pr22: TeamMember[] = [
 	{
 		name: 'Raghad Al-Saleh',
 		position: 'Public Relations Team',
-		image: null,
+		team: ['Pr'],
+		image: '/images/humans/Raghad Al-Saleh.png',
 		social: {
 			twitter: null,
-			github: null,
+			github: 'https://github.com/RGD111',
 			instagram: null,
 			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220/'
 		}
@@ -154,6 +169,7 @@ export const pr = [
 	{
 		name: 'Rasha Khalid',
 		position: 'Public Relations Team',
+		team: ['Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -165,6 +181,7 @@ export const pr = [
 	{
 		name: 'Dinah AbuRahmah',
 		position: 'Public Relations Team',
+		team: ['Pr'],
 		image: null,
 		social: {
 			twitter: null,
@@ -175,21 +192,23 @@ export const pr = [
 	}
 ];
 
-export const content = [
+export const content22: TeamMember[] = [
 	{
 		name: 'Maryam Abdulaziz',
 		position: 'Account Manager',
+		team: ['Content'],
 		image: null,
 		social: {
-			twitter: null,
-			github: null,
+			twitter: 'https://twitter.com/Maryy_2k',
+			github: 'https://github.com/MaryyKookie2',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/maryam-mostafa-abdulmoniem-076695254'
+			linkedin: 'https://linkedin.com/in/maryam-mostafa-abdulaziz-076695254'
 		}
 	},
 	{
 		name: 'Maya Al-Saeed',
 		position: 'Account Manager',
+		team: ['Content'],
 		image: null,
 		social: {
 			twitter: null,
