@@ -1,7 +1,6 @@
 <script lang="ts">
 	import TwitterIcon from '~icons/fa/twitter';
 	import GithubIcon from '~icons/fa/github';
-	import InstagramIcon from '~icons/fa/instagram';
 	import LinkedinIcon from '~icons/fa/linkedin-square';
 </script>
 
@@ -17,19 +16,7 @@
 		/>
 	</a>
 	<a href="https://github.com/GDSC-YU" target="_blank" rel="noreferrer" aria-label="Our GitHub Org">
-		<GithubIcon
-			class="h-6 w-6 transition-colors duration-200 ease-in-out hover:text-github-purple"
-		/>
-	</a>
-	<a
-		href="https://instagram.com/gdsc_yu/"
-		target="_blank"
-		rel="noreferrer"
-		aria-label="Our Instagram Account"
-	>
-		<InstagramIcon
-			class="h-6 w-6 transition-colors duration-200 ease-in-out hover:text-instagram-pink"
-		/>
+		<GithubIcon class="h-6 w-6 transition-colors duration-200 ease-in-out hover:text-black" />
 	</a>
 	<a
 		href="https://linkedin.com/company/gdsc-yu"
