@@ -5,7 +5,7 @@ export const leads22: TeamMember[] = [
 		name: 'Yazeed Al-Khalaf',
 		position: 'Club Lead',
 		team: ['Leads'],
-		image: '/images/humans/leads/Yazeed Al-Khalaf.jpeg',
+		image: '/images/humans/Yazeed Al-Khalaf.jpeg',
 		social: {
 			twitter: 'https://twitter.com/yazeedalkhalaf',
 			github: 'https://github.com/YazeedAlKhalaf',
@@ -65,7 +65,7 @@ export const leads22: TeamMember[] = [
 		name: 'Mishal Al-Harbi',
 		position: 'Event Planning Lead',
 		team: ['Leads', 'Pr'],
-		image: '/images/humans/leads/Mishal Al-Harbi.jpg',
+		image: '/images/humans/Mishal Al-Harbi.jpg',
 		social: {
 			twitter: null,
 			github: null,
@@ -77,7 +77,7 @@ export const leads22: TeamMember[] = [
 		name: 'Mohammed Al-Brahim',
 		position: 'Club Treasurer',
 		team: ['Leads', 'Pr'],
-		image: '/images/humans/leads/Mohammed Al-Brahim.png',
+		image: '/images/humans/Mohammed Al-Brahim.png',
 		social: {
 			twitter: 'https://twitter.com/moh_albrahim',
 			github: null,
@@ -158,10 +158,10 @@ export const pr22: TeamMember[] = [
 		name: 'Raghad Al-Saleh',
 		position: 'Public Relations Team',
 		team: ['Pr'],
-		image: null,
+		image: '/images/humans/Raghad Al-Saleh.png',
 		social: {
 			twitter: null,
-			github: null,
+			github: 'https://github.com/RGD111',
 			instagram: null,
 			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220/'
 		}
