@@ -89,6 +89,18 @@ export const engineering23 = [
 		}
 	},
 	{
+		name: 'Lama Almuraqa',
+		position: 'Software Engineer',
+		team: ['Engineering'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: null,
+			linkedin: 'https://linkedin.com/in/lama-almuraqa-95a89227a'
+		}
+	},
+	{
 		name: 'Rawan Shamsan',
 		position: 'Software Engineer',
 		team: ['Engineering'],
