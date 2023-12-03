@@ -128,6 +128,18 @@ export const engineering23 = [
 
 export const design23 = [
 	{
+		name: 'Abdulrahman Alhassun',
+		position: 'Artist',
+		team: ['Design'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: null,
+			linkedin: null
+		}
+	},
+	{
 		name: 'Khaled Hazzam',
 		position: 'Artist',
 		team: ['Design'],
@@ -159,7 +171,7 @@ export const content23 = [
 	{
 		name: 'Maryam Abdulaziz',
 		position: 'Content Team Lead',
-		team: ['Content'],
+		team: ['leads', 'Content'],
 		image: null,
 		social: {
 			twitter: 'https://twitter.com/Maryy_2k',
