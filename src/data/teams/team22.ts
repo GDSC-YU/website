@@ -10,7 +10,7 @@ export const leads22: TeamMember[] = [
 			twitter: 'https://twitter.com/yazeedalkhalaf',
 			github: 'https://github.com/YazeedAlKhalaf',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/YazeedAlKhalaf/'
+			linkedin: 'https://linkedin.com/in/YazeedAlKhalaf'
 		}
 	},
 	{
@@ -22,7 +22,7 @@ export const leads22: TeamMember[] = [
 			twitter: null,
 			github: 'https://github.com/dhoha999',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/dhohabediwi/'
+			linkedin: 'https://linkedin.com/in/dhohabediwi'
 		}
 	},
 	{
@@ -34,7 +34,7 @@ export const leads22: TeamMember[] = [
 			twitter: 'https://x.com/iKhalilM',
 			github: 'https://github.com/g9wz',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/khalil-melhem/'
+			linkedin: 'https://linkedin.com/in/khalil-melhem'
 		}
 	},
 	{
@@ -124,7 +124,7 @@ export const design22: TeamMember[] = [
 			twitter: null,
 			github: 'https://github.com/KadeHZ',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/khaled-maher-hazzam-418972215/'
+			linkedin: 'https://linkedin.com/in/khaled-maher-hazzam-418972215'
 		}
 	},
 	{
@@ -135,8 +135,8 @@ export const design22: TeamMember[] = [
 		social: {
 			twitter: null,
 			github: 'https://github.com/Puppetie',
-			instagram: 'https://instagram.com/pupp3t.zip/',
-			linkedin: null
+			instagram: 'https://instagram.com/dumiiya',
+			linkedin: 'https://linkedin.com/in/osama-khlefawi-311155290'
 		}
 	},
 	{
@@ -163,7 +163,7 @@ export const pr22: TeamMember[] = [
 			twitter: null,
 			github: 'https://github.com/RGD111',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220/'
+			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220'
 		}
 	},
 	{
