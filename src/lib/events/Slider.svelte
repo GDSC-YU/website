@@ -2,7 +2,10 @@
 	import { Splide, SplideSlide } from '@splidejs/svelte-splide';
 	import '@splidejs/svelte-splide/css/sea-green';
 
-	import eventsData from '$data/events';
+	import { getEventsByYear } from '$data/events/index';
+	import { year } from '$lib/store';
+
+	$: eventsData = getEventsByYear($year);
 </script>
 
 <Splide
