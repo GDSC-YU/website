@@ -10,7 +10,7 @@ export const leads23: TeamMember[] = [
 			twitter: 'https://x.com/iKhalilM',
 			github: 'https://github.com/g9wz',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/khalil-melhem/'
+			linkedin: 'https://linkedin.com/in/khalil-melhem'
 		}
 	},
 	{
@@ -22,7 +22,7 @@ export const leads23: TeamMember[] = [
 			twitter: null,
 			github: 'https://github.com/dhoha999',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/dhohabediwi/'
+			linkedin: 'https://linkedin.com/in/dhohabediwi'
 		}
 	},
 	{
@@ -34,7 +34,7 @@ export const leads23: TeamMember[] = [
 			twitter: null,
 			github: 'https://github.com/ayhamowl',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/ayham-zeidan-379053221/'
+			linkedin: 'https://linkedin.com/in/ayham-zeidan-379053221'
 		}
 	},
 	{
@@ -46,7 +46,7 @@ export const leads23: TeamMember[] = [
 			twitter: null,
 			github: 'https://github.com/RGD111',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220/'
+			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220'
 		}
 	},
 	{
@@ -87,6 +87,30 @@ export const engineering23 = [
 			instagram: null,
 			linkedin: 'https://linkedin.com/in/hala-a-489a46226'
 		}
+	},
+	{
+		name: 'Rawan Shamsan',
+		position: 'Software Engineer',
+		team: ['Engineering'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: null,
+			linkedin: 'https://linkedin.com/in/rawan-shamsan-212683230'
+		}
+	},
+	{
+		name: 'Reema Alsanee',
+		position: 'Software Engineer',
+		team: ['Engineering'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: null,
+			linkedin: 'https://linkedin.com/in/reema-alsanee-1999571b3'
+		}
 	}
 ];
 
@@ -100,7 +124,7 @@ export const design23 = [
 			twitter: null,
 			github: 'https://github.com/KadeHZ',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/khaled-maher-hazzam-418972215/'
+			linkedin: 'https://linkedin.com/in/khaled-maher-hazzam-418972215'
 		}
 	},
 	{
@@ -111,8 +135,8 @@ export const design23 = [
 		social: {
 			twitter: null,
 			github: 'https://github.com/Puppetie',
-			instagram: 'https://instagram.com/pupp3t.zip/',
-			linkedin: null
+			instagram: 'https://instagram.com/dumiiya',
+			linkedin: 'https://linkedin.com/in/osama-khlefawi-311155290'
 		}
 	}
 ];
@@ -130,6 +154,18 @@ export const content23 = [
 			github: 'https://github.com/MaryyKookie2',
 			instagram: null,
 			linkedin: 'https://linkedin.com/in/maryam-mostafa-abdulaziz-076695254'
+		}
+	},
+	{
+		name: 'Bayan Alsahli',
+		position: 'Content Creator',
+		team: ['Content'],
+		image: null,
+		social: {
+			twitter: 'https://www.instagram.com/beno__beno__',
+			github: null,
+			instagram: null,
+			linkedin: null
 		}
 	}
 ];
