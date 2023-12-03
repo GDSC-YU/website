@@ -1,12 +1,6 @@
-interface event {
-	type: string;
-	title: string;
-	description: string;
-	image: string;
-	imageAlt: string;
-}
+import type { ClubEvent } from './index';
 
-const eventsData: event[] = [
+const events22: ClubEvent[] = [
 	{
 		type: 'Conference',
 		title: 'DevFest Saudi 🎉',
@@ -60,4 +54,4 @@ const eventsData: event[] = [
 	}
 ];
 
-export default eventsData;
+export default events22;
