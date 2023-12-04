@@ -116,7 +116,7 @@ export const engineering23 = [
 		name: 'Mohammed Bin Jebreen',
 		position: 'Software Engineer',
 		team: ['Engineering'],
-		image: null,
+		image: '/images/humans/Mohammed Bin Jebreen.jpg',
 		social: {
 			twitter: 'https://x.com/twismjay',
 			github: 'https://github.com/Mjebreen',
