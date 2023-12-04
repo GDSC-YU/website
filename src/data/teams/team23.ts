@@ -77,6 +77,18 @@ export const engineering23 = [
 		}
 	},
 	{
+		name: 'Adnan Chaar',
+		position: 'Software Engineer',
+		team: ['Engineering'],
+		image: null,
+		social: {
+			twitter: null,
+			github: 'https://github.com/Shaar03',
+			instagram: null,
+			linkedin: 'https://linkedin.com/in/adnanchaar03/'
+		}
+	},
+	{
 		name: 'Hala Al-Nadeem',
 		position: 'Software Engineer',
 		team: ['Engineering'],
@@ -161,6 +173,18 @@ export const design23 = [
 			github: 'https://github.com/Puppetie',
 			instagram: 'https://instagram.com/dumiiya',
 			linkedin: 'https://linkedin.com/in/osama-khlefawi-311155290'
+		}
+	},
+	{
+		name: 'Tala Aljifri',
+		position: 'Photographer',
+		team: ['Design'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: 'https://instagram.com/talajphotography',
+			linkedin: 'https://linkedin.com/in/tala-aljifri-ab442a22a/'
 		}
 	}
 ];
