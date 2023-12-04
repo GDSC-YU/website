@@ -85,7 +85,7 @@ export const engineering23 = [
 			twitter: null,
 			github: 'https://github.com/Shaar03',
 			instagram: null,
-			linkedin: 'https://linkedin.com/in/adnanchaar03/'
+			linkedin: 'https://linkedin.com/in/adnanchaar03'
 		}
 	},
 	{
@@ -110,6 +110,18 @@ export const engineering23 = [
 			github: null,
 			instagram: null,
 			linkedin: 'https://linkedin.com/in/lama-almuraqa-95a89227a'
+		}
+	},
+	{
+		name: 'Mohammed Bin Jebreen',
+		position: 'Software Engineer',
+		team: ['Engineering'],
+		image: null,
+		social: {
+			twitter: 'https://x.com/twismjay',
+			github: 'https://github.com/Mjebreen',
+			instagram: null,
+			linkedin: 'https://linkedin.com/in/mohammed-jebreen-01b118177'
 		}
 	},
 	{
@@ -141,6 +153,18 @@ export const engineering23 = [
 export const design23 = [
 	{
 		name: 'Abdulrahman Alhassun',
+		position: 'Artist',
+		team: ['Design'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: null,
+			linkedin: null
+		}
+	},
+	{
+		name: 'Dalia Alhawi',
 		position: 'Artist',
 		team: ['Design'],
 		image: null,
@@ -184,12 +208,25 @@ export const design23 = [
 			twitter: null,
 			github: null,
 			instagram: 'https://instagram.com/talajphotography',
-			linkedin: 'https://linkedin.com/in/tala-aljifri-ab442a22a/'
+			linkedin: 'https://linkedin.com/in/tala-aljifri-ab442a22a'
 		}
 	}
 ];
 
-export const pr23 = [];
+export const pr23 = [
+	{
+		name: 'Lana Abdulhadi',
+		position: 'Organizer',
+		team: ['Pr'],
+		image: null,
+		social: {
+			twitter: null,
+			github: null,
+			instagram: null,
+			linkedin: 'https://linkedin.com/in/lana-abdulhadi-3b67b624b'
+		}
+	}
+];
 
 export const content23 = [
 	{
