@@ -1,3 +1,9 @@
+<script>
+	import { t } from 'svelte-i18n';
+
+</script>
+
+
 <a
 	href="https://gdsc.community.dev/al-yamamah/"
 	target="_blank"
@@ -14,7 +20,7 @@
 		<span
 			class="ease absolute left-0 -ml-2 h-48 w-48 origin-top-right -translate-x-full translate-y-12 -rotate-90 bg-neutral-950 transition-all duration-300 group-hover:-rotate-180"
 		/>
-		<span class="relative">Join Us Now!</span>
+		<span class="relative">{$t('join')}</span>
 	</span>
 
 	<!-- Button Shadow -->

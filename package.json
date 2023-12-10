@@ -36,5 +36,8 @@
 		"unplugin-icons": "^0.17.4",
 		"vite": "^4.4.2"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"svelte-i18n": "^4.0.0"
+	}
 }

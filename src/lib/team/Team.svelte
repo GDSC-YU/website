@@ -4,7 +4,7 @@
 	import TeamButton from './ui/TeamButton.svelte';
 
 	import { year } from '$lib/store';
-
+	import { t } from 'svelte-i18n';
 	let areShown = false;
 	let teamSection: HTMLElement;
 
@@ -20,7 +20,7 @@
 
 <section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
-	<Spacer title={selectedYear + ' Team!'} color="yellow" />
+	<Spacer title="{$t('team23')}" color="yellow" />
 	<!-- Content -->
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
 		<TeamContainer team="" />

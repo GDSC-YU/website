@@ -1,13 +1,11 @@
-interface navLink {
-	name: string;
-	href: string;
-}
+import type { navLink } from './index';
 
-const navLinks: navLink[] = [
-	{ name: 'Recent Events 📚', href: '#events' },
-	{ name: 'Our Projects 🚀', href: '#projects' },
-	{ name: 'The Team 😎', href: '#team' },
-	{ name: 'Contact Us 📩', href: '#contact' }
+
+const navLinkKeys: navLink[] = [
+  { name: 'events', href: '#events' },
+  { name: 'projects', href: '#projects' },
+  { name: 'navteam', href: '#team' },
+  { name: 'connect', href: '#contact' }
 ];
 
-export default navLinks;
+export default navLinkKeys;

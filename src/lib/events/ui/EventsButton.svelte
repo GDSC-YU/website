@@ -1,15 +1,15 @@
 <script lang="ts">
 	import { year } from '$lib/store';
-
+	import { t } from 'svelte-i18n';
 	$: currentYear = $year;
 </script>
 
 <div class="flex flex-col items-center justify-center gap-5 pb-5 pt-10 md:flex-row md:pt-12">
 	{#if currentYear !== '2022 - 2023'}
-		<button on:click={() => year.set('2022 - 2023')}>2022 - 2023 Events!</button>
+		<button on:click={() => year.set('2022 - 2023')}>{$t('team22')}</button>
 	{/if}
 	{#if currentYear !== '2023 - 2024'}
-		<button on:click={() => year.set('2023 - 2024')}>2023 - 2024 Events!</button>
+		<button on:click={() => year.set('2023 - 2024')}>{$t('team23')}</button>
 	{/if}
 </div>
 

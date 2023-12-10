@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { year } from '$lib/store';
-
+	import { t } from 'svelte-i18n';
 	export let showMembers: Boolean;
 	export let onClick: () => void;
 
@@ -9,14 +9,14 @@
 
 <div class="flex flex-col gap-5 md:flex-row">
 	<button on:click={onClick}>
-		{showMembers ? '!Show The Rest' : 'Show The Rest'} 😎
+		{showMembers ? '' : ''} {$t('showMore')} 
 	</button>
 
 	{#if currentYear !== '2022 - 2023'}
-		<button on:click={() => year.set('2022 - 2023')}>2022 - 2023 Team!</button>
+		<button on:click={() => year.set('2022 - 2023')}>{$t('team22')}</button>
 	{/if}
 	{#if currentYear !== '2023 - 2024'}
-		<button on:click={() => year.set('2023 - 2024')}>2023 - 2024 Team!</button>
+		<button on:click={() => year.set('2023 - 2024')}>{$t('team23')}</button>
 	{/if}
 </div>
 
