@@ -2,10 +2,15 @@
 	import '../app.postcss';
 	import '../i18n';
 
+	import { isLoading } from 'svelte-i18n';
 
 	// todo: drop & build our own
 	import { ModeWatcher } from 'mode-watcher';
 </script>
 
-<ModeWatcher />
-<slot />
+{#if $isLoading}
+	Hello 👋🏻
+{:else}
+	<ModeWatcher />
+	<slot />
+{/if}
