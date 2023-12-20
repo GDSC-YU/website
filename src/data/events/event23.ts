@@ -6,7 +6,7 @@ const events23: ClubEvent[] = [
     type: 'Workshop',
     title: 'events23.gitWorkshopTitle',
     description: 'events23.gitWorkshopDescription',
-    image: '/images/events/2023 - 2024/Git & GitHub.jpg',
+    image: '/images/events/2023 - 2024/Git & GitHub.jpeg',
     imageAlt: 'Participants attentively listening to the presenter during the workshop'
   },
   {
