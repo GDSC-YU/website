@@ -8,9 +8,9 @@
 <svelte:head>
     <link
 	rel="preload"
-	href="/fonts/OpenSans-VariableFont_wdth,wght.ttf"
+	href="/fonts/OpenSans-VariableFont_wdth_wght.woff"
 	as="font"
-	type="font/ttf"
+	type="font/woff"
 	crossOrigin="anonymous"
 />
 </svelte:head>
