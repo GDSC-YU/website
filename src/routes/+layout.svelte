@@ -4,6 +4,7 @@
 	// todo: drop & build our own
 	import { ModeWatcher } from 'mode-watcher';
 </script>
+
 <svelte:head>
     <link
 	rel="preload"
@@ -13,5 +14,6 @@
 	crossOrigin="anonymous"
 />
 </svelte:head>
+
 <ModeWatcher />
 <slot />
