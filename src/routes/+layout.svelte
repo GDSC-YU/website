@@ -7,7 +7,7 @@
 <svelte:head>
     <link
 	rel="preload"
-	href="/static/fonts/OpenSans-VariableFont_wdth,wght.ttf"
+	href="/fonts/OpenSans-VariableFont_wdth,wght.ttf"
 	as="font"
 	type="font/ttf"
 	crossOrigin="anonymous"
