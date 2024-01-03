@@ -17,11 +17,14 @@ const config = {
 				'twitter-blue': '#00acee',
 				'instagram-pink': '#C13584',
 				'linkedin-blue': '#0072b1'
+			},
+			fontFamily: {
+				'OpenSans': ['OpenSans', 'sans-serif']
 			}
 		}
 	},
 
-	plugins: []
+	plugins: [] 
 };
 
 module.exports = config;
