@@ -6,13 +6,13 @@
 </script>
 
 <svelte:head>
-    <link
-	rel="preload"
-	href="/fonts/OpenSans-VariableFont_wdth_wght.woff"
-	as="font"
-	type="font/woff"
-	crossOrigin="anonymous"
-/>
+	<link
+		rel="preload"
+		href="/fonts/OpenSans.woff2"
+		as="font"
+		type="font/woff"
+		crossOrigin="anonymous"
+	/>
 </svelte:head>
 
 <ModeWatcher />

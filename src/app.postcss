@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+	font-family: 'OpenSans';
+	src: url('/font/OpenSans.woff2') format('woff2');
+	font-weight: 300 800;
+}
+
 * {
-	font-family: "OpenSans", san-serif;
+	font-family: 'OpenSans';
 	scroll-behavior: smooth;
 }
 
@@ -11,11 +17,6 @@
 	* {
 		scroll-behavior: auto;
 	}
-}
-
-@font-face {
-	font-family: "Open Sans";
-	src: url("/fonts/OpenSans-VariableFont_wdth_wght.woff") format('woff');
 }
 
 body {
