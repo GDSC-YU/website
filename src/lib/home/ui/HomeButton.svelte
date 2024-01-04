@@ -12,9 +12,9 @@
 		<span class="absolute inset-0 h-full w-full rounded-lg bg-gray-50 px-5 py-3" />
 		<!-- Rotating Part -->
 		<span
-			class="ease absolute left-0 -ml-2 h-48 w-48 origin-top-right -translate-x-full translate-y-12 -rotate-90 bg-neutral-950 transition-all duration-300 group-hover:-rotate-180"
+			class="ease absolute left-0 -ml-2 h-72 w-72 origin-top-right -translate-x-full translate-y-12 -rotate-90 bg-neutral-950 transition-all duration-300 group-hover:-rotate-180"
 		/>
-		<span class="relative">Join Us Now!</span>
+		<span class="relative">Community Chapter Page</span>
 	</span>
 
 	<!-- Button Shadow -->
