@@ -4,7 +4,7 @@
 </script>
 
 
-<h1 class="flex text-4xl font-bold lg:text-6xl">
+<h1 class="flex text-4xl font-bold lg:text-6xl" class="ltr-text"> 
 	<span class="text-google-blue">G</span>
 	<span class="text-google-red">o</span>
 	<span class="text-google-yellow">o</span>
