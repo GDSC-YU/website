@@ -1,13 +1,11 @@
 <script>
-  import { t } from 'svelte-i18n';
+	import { t } from 'svelte-i18n';
 
 	import Yu from './ui/Yu.svelte';
 	import Google from './ui/Google.svelte';
 	import HomeButton from './ui/HomeButton.svelte';
 	import LogoModel from './ui/LogoModel.svelte';
 	import ARview from './ui/ARview.svelte';
-	import HomeButton from './ui/HomeButton.svelte';
-	import Google from './ui/Google.svelte';
 </script>
 
 <section
@@ -17,7 +15,6 @@
 	<div
 		class="flex flex-col items-center gap-y-9 text-center dark:text-white md:w-1/2 md:items-start md:gap-y-6 md:text-left lg:flex-grow"
 	>
-
 		<Yu />
 
 		<Google />
