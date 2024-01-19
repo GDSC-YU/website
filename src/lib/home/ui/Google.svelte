@@ -4,7 +4,7 @@
 </script>
 
 
-<h1 class="flex text-4xl font-bold lg:text-6xl" class="ltr-text"> 
+<h1 class="flex text-4xl font-bold lg:text-6xl" style="direction: ltr;">
 	<span class="text-google-blue">G</span>
 	<span class="text-google-red">o</span>
 	<span class="text-google-yellow">o</span>
