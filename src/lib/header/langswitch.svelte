@@ -3,7 +3,12 @@
   
 	function setLanguage(lang) {
 	  $locale = lang;
-	}
+	if (lang === 'ar') {
+      document.documentElement.dir = 'rtl'; 
+    } else {
+      document.documentElement.dir = 'ltr'; 
+    }
+  } 
   </script>
   
   <div>
