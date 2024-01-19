@@ -12,7 +12,7 @@
         description: $t(event.description)
     }));
 </script>
-
+<span style="direction: ltr;">
 <Splide
     options={{
         type: 'loop',
@@ -53,3 +53,4 @@
         </SplideSlide>
     {/each}
 </Splide>
+</span>
