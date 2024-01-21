@@ -26,32 +26,33 @@
 
 	"events22": {
 		"devfestTitle": "DevFest Saudi 🎉",
-		"devfestDescription": "Local tech conference focusing on Google technologies...",
+		"devfestDescription": "DevFests are local tech conferences hosted by Google Developer Groups around the world. These conferences focus on Google technologies. We enjoyed listening to experts talk about our favorite technologies and connecting with developers 💡",
 		"blackHatTitle": "Black Hat MEA 👾",
-		"blackHatDescription": "Three-day cyber security convention with global experts...",
+		"blackHatDescription": "We had the pleasure of attending Black Hat MEA, a three-day cyber security and hacking convention that brought together over 30,000 attendees, 250 exhibitors, and 200 speakers from around the world 🌎",
 		"reactWorkshopTitle": "React Workshop 🧑‍💻",
-		"reactWorkshopDescription": "Learning the latest in React development from industry experts...",
+		"reactWorkshopDescription": "A React workshop, where we had the pleasure of learning from CTO Fahad Allibdi himself, and learned about the most recent React features, best practices, and how to build high-performing React applications 🚀",
 		"coffeethonTitle": "Coffeethon ☕",
-		"coffeethonDescription": "Intro session on coffee and technology with industry leaders...",
+		"coffeethonDescription": "We hosted a Coffeethon intro session with Eng. Yousef Al-Faris and Mr. Al-Mohanad Al-Marawi, CEO of Arabian Coffee Institute and Coffeethons founder!",
 		"desertCodeTitle": "Desert Code Oasis 🌵",
-		"desertCodeDescription": "Java challenge testing students' programming skills...",
+		"desertCodeDescription": "A Java Programming Challenge to put students' programming skills to the test in a thrilling and educational experience. Participants solved 20 unique challenges against the clock to emerge victorious 🏆",
 		"studentCeremonyTitle": "Student Clubs Ceremony 🏅",
-		"studentCeremonyDescription": "Celebrating our third place in the best student club contest..."
+		"studentCeremonyDescription": "The Google Developer Student Club Al Yamamah won the third place 🥉 in the best student club contest at Al Yamamah University."
 	},
 
 	"events23": {
 		"gitWorkshopTitle": "Git & GitHub 🐙",
-		"gitWorkshopDescription": "A Git & GitHub Workshop, guided by Nawaf Al-Shawan...",
+		"gitWorkshopDescription": "A Git & GitHub Workshop, guided by Nawaf Al-Shawan. Participants gained knowledge on installing Git, navigating through its commands, and leveraging the GitHub Student Developer 📦",
 		"enterpriseTalkTitle": "Enterprise Architecture 🏛️",
-		"enterpriseTalkDescription": "Maryam Al-Dhewalia presents an introductory talk on Enterprise Architecture...",
+		"enterpriseTalkDescription": "Maryam Al-Dhewalia, Manager at Solutions by STC, presented an introductory talk on Enterprise Architecture, exploring its principles and impact on both business and governmental advancements 🌆",
 		"flutterWorkshopTitle": "Intro to Flutter 📱",
-		"flutterWorkshopDescription": "An introductory immersive Flutter workshop conducted by Yazeed AlKhalaf...",
+		"flutterWorkshopDescription": "An introductory immersive Flutter workshop conducted by Yazeed AlKhalaf, 2022 - 2023 lead. Participants delved into cross-platform app development, getting to grips with the basics of Flutter and starting to build their apps 🧑‍💻",
 		"gameCampTitle": "Game Camp 👾",
-		"gameCampDescription": "A three-day game development bootcamp presented in Arabic...",
+		"gameCampDescription": "title: 'Game Camp 👾'",
+                "A comprehensive three-day game development bootcamp presented in Arabic by a team of elite Saudi game developers, where participants immersed themselves in the exciting world of game creation, gaining hands-on experience 🎮",
 		"studentCeremonyTitle": "Student Clubs Ceremony 🏅",
-		"studentCeremonyDescription": "Celebrating our third place in the best student club contest..."
+		"studentCeremonyDescription": "The Google Developer Student Club Al Yamamah won the third place 🥉 in the best student club contest at Al Yamamah University."
 	},
-
+ 
 	"proj": {
 		"alyamamahProgressName": "Al-Yamamah Semester Progress 🗓️",
 		"alyamamahProgressDesc": "View The Yu Academic Calender Easily!",
