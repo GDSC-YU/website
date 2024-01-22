@@ -12,6 +12,7 @@
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
+		"@fontsource-variable/open-sans": "^5.0.23",
 		"@iconify/json": "^2.2.142",
 		"@splidejs/svelte-splide": "^0.2.9",
 		"@sveltejs/adapter-auto": "^2.0.0",

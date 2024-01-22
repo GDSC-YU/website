@@ -5,17 +5,9 @@
 	import { isLoading } from 'svelte-i18n';
 
 	import { ModeWatcher } from 'mode-watcher';
-</script>
 
-<svelte:head>
-	<link
-		rel="preload"
-		href="/fonts/OpenSans.woff2"
-		as="font"
-		type="font/woff"
-		crossOrigin="anonymous"
-	/>
-</svelte:head>
+	import '@fontsource-variable/open-sans';
+</script>
 
 {#if $isLoading}
 	Hello 👋🏻
@@ -23,3 +15,9 @@
 	<ModeWatcher />
 	<slot />
 {/if}
+
+<style>
+	:global(body) {
+		font-family: 'Open Sans Variable', sans-serif;
+	}
+</style>
