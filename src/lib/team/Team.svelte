@@ -22,7 +22,13 @@
 
 <section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
-	<Spacer title={$t('team23')} color="yellow" />
+	<Spacer
+		title={`${
+			$t('team') === 'فريق' ? $t('team') + ' ' + selectedYear : selectedYear + ' ' + $t('team')
+		}!`}
+		color="yellow"
+	/>
+
 	<!-- Content -->
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
 		<TeamContainer team="" />
