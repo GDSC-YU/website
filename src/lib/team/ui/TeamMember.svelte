@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { locale } from 'svelte-i18n';
+
 	import TwitterIcon from '~icons/fa/twitter';
 	import GithubIcon from '~icons/fa/github';
 	import InstagramIcon from '~icons/fa/instagram';
@@ -11,6 +13,8 @@
 	export let github: string | null;
 	export let instagram: string | null;
 	export let linkedin: string | null;
+
+	$: marginClass = $locale === 'ar' ? 'ml-4' : 'mr-4';
 </script>
 
 <div class="w-full p-2">
@@ -18,13 +22,13 @@
 		{#if img}
 			<img
 				src={img}
-				class="mr-4 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full object-cover object-center"
+				class={`${marginClass} h-20 w-20 flex-shrink-0 overflow-hidden rounded-full object-cover object-center`}
 				alt={`${name}'s Image`}
 			/>
 		{:else}
 			<img
 				alt={`${name}'s Initial`}
-				class="mr-4 h-20 w-20 flex-shrink-0 overflow-hidden rounded-full object-cover object-center"
+				class={`${marginClass} h-20 w-20 flex-shrink-0 overflow-hidden rounded-full object-cover object-center`}
 				src={`/images/initials/${name.charAt(0).toUpperCase()}.svg`}
 			/>
 		{/if}
