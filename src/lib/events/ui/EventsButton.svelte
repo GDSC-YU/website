@@ -1,6 +1,8 @@
 <script lang="ts">
-	import { year } from '$lib/store';
 	import { t } from 'svelte-i18n';
+
+	import { year } from '$lib/store';
+
 	$: currentYear = $year;
 </script>
 

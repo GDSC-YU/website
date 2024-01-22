@@ -1,6 +1,6 @@
 <script>
-	import ConnectButton from './ConnectButton.svelte';
 	import { t } from 'svelte-i18n';
+	import ConnectButton from './ConnectButton.svelte';
 </script>
 
 <form name="Contact-Us" method="POST" data-netlify="true" class="-m-2 flex flex-wrap font-medium">

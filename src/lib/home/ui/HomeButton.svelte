@@ -1,8 +1,6 @@
 <script>
 	import { t } from 'svelte-i18n';
-
 </script>
-
 
 <a
 	href="https://gdsc.community.dev/al-yamamah/"

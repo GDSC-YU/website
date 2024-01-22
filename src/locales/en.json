@@ -47,11 +47,11 @@
 		"flutterWorkshopTitle": "Intro to Flutter 📱",
 		"flutterWorkshopDescription": "An introductory immersive Flutter workshop conducted by Yazeed AlKhalaf, 2022 - 2023 lead. Participants delved into cross-platform app development, getting to grips with the basics of Flutter and starting to build their apps 🧑‍💻",
 		"gameCampTitle": "Game Camp 👾",
-                "gameCampDescription": "A comprehensive three-day game development bootcamp presented in Arabic by a team of elite Saudi game developers, where participants immersed themselves in the exciting world of game creation, gaining hands-on experience 🎮",
+		"gameCampDescription": "A comprehensive three-day game development bootcamp presented in Arabic by a team of elite Saudi game developers, where participants immersed themselves in the exciting world of game creation, gaining hands-on experience 🎮",
 		"studentCeremonyTitle": "Student Clubs Ceremony 🏅",
 		"studentCeremonyDescription": "The Google Developer Student Club Al Yamamah won the third place 🥉 in the best student club contest at Al Yamamah University."
 	},
- 
+
 	"proj": {
 		"alyamamahProgressName": "Al-Yamamah Semester Progress 🗓️",
 		"alyamamahProgressDesc": "View The Yu Academic Calender Easily!",

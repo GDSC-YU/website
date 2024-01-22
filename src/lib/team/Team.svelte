@@ -1,10 +1,12 @@
 <script lang="ts">
-	import Spacer from '$lib/Spacer.svelte';
+	import { t } from 'svelte-i18n';
+
 	import TeamContainer from './ui/TeamContainer.svelte';
 	import TeamButton from './ui/TeamButton.svelte';
 
+	import Spacer from '$lib/Spacer.svelte';
 	import { year } from '$lib/store';
-	import { t } from 'svelte-i18n';
+
 	let areShown = false;
 	let teamSection: HTMLElement;
 
@@ -20,7 +22,7 @@
 
 <section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
-	<Spacer title="{$t('team23')}" color="yellow" />
+	<Spacer title={$t('team23')} color="yellow" />
 	<!-- Content -->
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
 		<TeamContainer team="" />

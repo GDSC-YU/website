@@ -17,7 +17,6 @@
 	/>
 </svelte:head>
 
-
 {#if $isLoading}
 	Hello 👋🏻
 {:else}

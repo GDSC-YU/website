@@ -1,14 +1,16 @@
 <script>
-	import Spacer from '$lib/Spacer.svelte';
+	import { t } from 'svelte-i18n';
+
 	import Form from './ui/Form.svelte';
 	import LogoBreak from './ui/LogoBreak.svelte';
 	import SocialLinks from './ui/SocialLinks.svelte';
-	import { t } from 'svelte-i18n';
+
+	import Spacer from '$lib/Spacer.svelte';
 </script>
 
 <section id="contact">
 	<!-- Wave Shape And Heading Text -->
-	<Spacer title="{$t('connect')}"  color="green" />
+	<Spacer title={$t('connect')} color="green" />
 	<!-- Content -->
 
 	<div class="container mx-auto p-5">

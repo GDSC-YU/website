@@ -1,8 +1,6 @@
 <script>
 	import { t } from 'svelte-i18n';
-
 </script>
-
 
 <h1 class="flex text-4xl font-bold lg:text-6xl" style="direction: ltr;">
 	<span class="text-google-blue">G</span>
