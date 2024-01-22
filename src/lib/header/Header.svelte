@@ -2,8 +2,8 @@
 	import { onMount, onDestroy } from 'svelte';
 	import { t } from 'svelte-i18n';
 
-	import Langswitch from './langswitch.svelte';
-	import DarkToggle from './DarkToggle.svelte';
+	import LangSwitcher from './parts/LangSwitcher.svelte';
+	import DarkToggle from './parts/DarkToggle.svelte';
 
 	import Menu from '~icons/ri/menu-4-fill';
 	import Close from '~icons/ri/close-fill';
@@ -41,10 +41,9 @@
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
 			<DarkToggle />
-			<Langswitch />
+			<LangSwitcher />
 
 			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
-				<!-- Corrected class bindings -->
 				<Menu
 					class={`${
 						isMenuOpen ? 'hidden' : ''
