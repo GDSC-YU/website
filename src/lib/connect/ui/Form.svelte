@@ -1,4 +1,5 @@
 <script>
+	import { t } from 'svelte-i18n';
 	import ConnectButton from './ConnectButton.svelte';
 </script>
 
@@ -6,28 +7,28 @@
 	<!-- First Name Input -->
 	<div class="w-1/2 p-2">
 		<div class="relative">
-			<label for="first-name" class="leading-8">First Name:</label>
+			<label for="first-name" class="leading-8">{$t('Fname')}</label>
 			<input type="text" required id="first-name" name="first-name" class="contactInput" />
 		</div>
 	</div>
 	<!-- Last Name Input -->
 	<div class="w-1/2 p-2">
 		<div class="relative">
-			<label for="last-name" class="leading-8">Last Name:</label>
+			<label for="last-name" class="leading-8">{$t('Lname')}</label>
 			<input type="text" required id="last-name" name="last-name" class="contactInput" />
 		</div>
 	</div>
 	<!-- Email Input -->
 	<div class="w-full p-2">
 		<div class="relative">
-			<label for="email" class="leading-8">Your Email:</label>
+			<label for="email" class="leading-8">{$t('email')}</label>
 			<input type="email" required id="email" name="email" class="contactInput" />
 		</div>
 	</div>
 	<!-- Message Input -->
 	<div class="w-full p-2">
 		<div class="relative">
-			<label for="message" class="leading-8">Your Message:</label>
+			<label for="message" class="leading-8">{$t('message')}</label>
 			<textarea
 				required
 				id="message"

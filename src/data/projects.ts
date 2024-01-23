@@ -1,4 +1,4 @@
-interface project {
+export interface project {
 	name: string;
 	description: string;
 	image: string;
@@ -9,32 +9,26 @@ interface project {
 
 const projectsData: project[] = [
 	{
-		name: 'Al-Yamamah Semester Progress 🗓️',
-		description: 'View The Yu Academic Calender Easily!',
-
+		name: 'proj.alyamamahProgressName',
+		description: 'proj.alyamamahProgressDesc',
 		image: '/images/projects/Al-Yamamah Semester Progress.avif',
 		imageAlt: 'A ScreenShot Of Al-Yamamah Semester Progress Project',
-
 		GitHub: 'https://github.com/YazeedAlKhalaf/alyamamah-semester-progress/',
 		Link: 'https://alyamamah-semester-progress.netlify.app/'
 	},
 	{
-		name: 'Tuwaiq Rooms Availability 📚',
-		description: 'Find Empty Rooms Easily!',
-
+		name: 'proj.tuwaiqRoomsName',
+		description: 'proj.tuwaiqRoomsDesc',
 		image: '/images/projects/Tuwaiq Rooms Availability.avif',
 		imageAlt: 'A ScreenShot Of Tuwaiq Rooms Availability Project',
-
 		GitHub: 'https://github.com/GDSC-YU/tuwaiq-classrooms',
 		Link: 'https://tc-gdscyu.netlify.app/'
 	},
 	{
-		name: 'Game Camp 👾',
-		description: 'A Website For Game Camp Event!',
-
+		name: 'proj.gameCampName',
+		description: 'proj.gameCampDesc',
 		image: '/images/projects/Game Camp.png',
 		imageAlt: 'A ScreenShot Of Game Camp Project',
-
 		GitHub: 'https://github.com/GDSC-YU/game-camp',
 		Link: 'https://gamecamp-gdscyu.netlify.app/'
 	}

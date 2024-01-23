@@ -1,34 +1,38 @@
 <script>
 	import { onMount, onDestroy } from 'svelte';
+	import { t } from 'svelte-i18n';
+
+	import LangSwitcher from './parts/LangSwitcher.svelte';
+	import DarkToggle from './parts/DarkToggle.svelte';
 
 	import Menu from '~icons/ri/menu-4-fill';
 	import Close from '~icons/ri/close-fill';
 
-	import DarkToggle from './DarkToggle.svelte';
-	import navLinks from '$data/nav';
+	import navLinkKeys from '$data/nav';
 
 	let isMenuOpen = false;
 
+	$: translatedNavLinks = navLinkKeys.map((link) => ({
+		...link,
+		name: $t(link.name)
+	}));
+
 	const toggleMenu = () => {
 		isMenuOpen = !isMenuOpen;
-		if (typeof window !== 'undefined') {
-			if (isMenuOpen) {
-				document.body.style.overflow = 'hidden';
-			} else {
-				document.body.style.overflow = '';
-			}
-		}
+		updateBodyOverflow();
 	};
 
-	onDestroy(() => {
+	function updateBodyOverflow() {
 		if (typeof window !== 'undefined') {
-			document.body.style.overflow = '';
+			document.body.style.overflow = isMenuOpen ? 'hidden' : '';
 		}
-	});
+	}
+
+	onDestroy(updateBodyOverflow);
 
 	onMount(() => {
-		if (isMenuOpen && typeof window !== 'undefined') {
-			document.body.style.overflow = 'hidden';
+		if (isMenuOpen) {
+			updateBodyOverflow();
 		}
 	});
 </script>
@@ -37,6 +41,8 @@
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
 			<DarkToggle />
+			<LangSwitcher />
+
 			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
 				<Menu
 					class={`${
@@ -45,7 +51,7 @@
 				/>
 				<Close
 					class={`${
-						isMenuOpen ? '' : 'hidden'
+						!isMenuOpen ? 'hidden' : ''
 					} h-9 w-9 transition duration-300 ease-in-out lg:hover:scale-90`}
 				/>
 			</button>
@@ -55,7 +61,7 @@
 			class="fixed z-40 flex h-screen w-screen flex-col items-center justify-center gap-y-10 bg-slate-200 text-black dark:bg-secret dark:text-slate-100"
 			class:hidden={!isMenuOpen}
 		>
-			{#each navLinks as { name, href }}
+			{#each translatedNavLinks as { name, href }}
 				<a
 					{href}
 					on:click={toggleMenu}
