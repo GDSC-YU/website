@@ -1,13 +1,16 @@
 <script>
-	import Spacer from '$lib/Spacer.svelte';
+	import { t } from 'svelte-i18n';
+
 	import Form from './ui/Form.svelte';
 	import LogoBreak from './ui/LogoBreak.svelte';
 	import SocialLinks from './ui/SocialLinks.svelte';
+
+	import Spacer from '$lib/Spacer.svelte';
 </script>
 
 <section id="contact">
 	<!-- Wave Shape And Heading Text -->
-	<Spacer title="Connect With Us 📩" color="green" />
+	<Spacer title={$t('connect')} color="green" />
 	<!-- Content -->
 
 	<div class="container mx-auto p-5">
@@ -24,9 +27,9 @@
 					gdsc@yu.edu.sa
 				</a>
 				<p class="my-5 font-medium leading-normal">
-					Al Qassim Highway,
+					{$t('location')}
 					<br />
-					Riyadh Region 11512
+					{$t('adress')}
 				</p>
 				<!-- Social Icons -->
 				<SocialLinks />

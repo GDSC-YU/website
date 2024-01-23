@@ -1,19 +1,23 @@
 <script lang="ts">
 	import '../app.postcss';
+	import '../i18n';
 
-	// todo: drop & build our own
+	import { isLoading } from 'svelte-i18n';
+
 	import { ModeWatcher } from 'mode-watcher';
+
+	import '@fontsource-variable/open-sans';
 </script>
 
-<svelte:head>
-	<link
-		rel="preload"
-		href="/fonts/OpenSans.woff2"
-		as="font"
-		type="font/woff"
-		crossOrigin="anonymous"
-	/>
-</svelte:head>
+{#if $isLoading}
+	Hello 👋🏻
+{:else}
+	<ModeWatcher />
+	<slot />
+{/if}
 
-<ModeWatcher />
-<slot />
+<style>
+	:global(body) {
+		font-family: 'Open Sans Variable', sans-serif;
+	}
+</style>
