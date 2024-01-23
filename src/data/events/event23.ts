@@ -29,9 +29,9 @@ const events23: ClubEvent[] = [
 		title: 'events23.gameCampTitle',
 		description: 'events23.gameCampDescription',
 		image: '/images/events/2023 - 2024/Game Camp.jpeg',
-		imageAlt: 'Ghada Baazim explaining game design using in-game imagery as an example'
+		imageAlt:
+			'Ghada Baazim explaining how lighting and environment guide players in game design, using in-game imagery as an example'
 	}
-	// Add more events here if needed
 ];
 
 export default events23;
