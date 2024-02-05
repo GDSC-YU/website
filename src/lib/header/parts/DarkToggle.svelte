@@ -7,7 +7,7 @@
 
 <button
 	on:click={toggleMode}
-	class="transition duration-300 ease-in-out lg:hover:scale-90"
+	class="transition-transform duration-200 ease-in-out lg:hover:scale-90"
 	aria-label="Toggle Theme"
 >
 	<Sun class="hidden h-9 w-9 fill-current dark:flex " />

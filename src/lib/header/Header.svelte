@@ -47,12 +47,12 @@
 				<Menu
 					class={`${
 						isMenuOpen ? 'hidden' : ''
-					} h-9 w-9 transition duration-300 ease-in-out lg:hover:scale-90`}
+					} h-9 w-9 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
 				/>
 				<Close
 					class={`${
 						!isMenuOpen ? 'hidden' : ''
-					} h-9 w-9 transition duration-300 ease-in-out lg:hover:scale-90`}
+					} h-9 w-9 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
 				/>
 			</button>
 		</div>
