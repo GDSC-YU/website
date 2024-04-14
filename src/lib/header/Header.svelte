@@ -40,8 +40,10 @@
 <header class="font-bold">
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
-			<DarkToggle />
-			<LangSwitcher />
+			<div class="flex items-center gap-x-6">
+            <DarkToggle />
+            <LangSwitcher />
+            </div>
 
 			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
 				<Menu
