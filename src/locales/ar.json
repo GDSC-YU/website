@@ -15,6 +15,7 @@
 	"pr": "العلاقات العامة 📧",
 	"cc": " صناع المحتوى🤳",
 	"showMore": "عرض المزيد 😎",
+	"HideTeam": "اخفاء😎",
 	"connect": "تواصل معنا 📩",
 	"navteam": "فريق العمل 😎",
 	"location": "طريق القصيم",
@@ -24,6 +25,156 @@
 	"email": "بريدك الإلكتروني:",
 	"message": "رسالتك:",
 	"send": "إرسال",
+	"teamMembers": {
+		"23name1": {
+			"name": "خليل ملحم",
+			"position": "Club Lead"
+		},
+		"23name2": {
+			"name": "Dhoha Bediwi",
+			"position": "Club Co-Lead"
+		},
+		"23name3": {
+			"name": "Ayham K. Zeidan",
+			"position": "Event & PR Manager"
+		},
+		"23name4": {
+			"name": "Raghad Al-Saleh",
+			"position": "Event & PR Manager"
+		},
+		"23name5": {
+			"name": "Ward Mousa",
+			"position": "Design Team Lead"
+		},
+		"23name6": {
+			"name": "Abdullah Meraj",
+			"position": "Software Engineer"
+		},
+		"23name7": {
+			"name": "Adnan Chaar",
+			"position": "Software Engineer"
+		},
+		"23name8": {
+			"name": "Hala Al-Nadeem",
+			"position": "Software Engineer"
+		},
+		"23name9": {
+			"name": "Lama Almuraqa",
+			"position": "Software Engineer"
+		},
+		"23name10": {
+			"name": "Mohammed Bin Jebreen",
+			"position": "Software Engineer"
+		},
+		"23name11": {
+			"name": "Rawan Shamsan",
+			"position": "Software Engineer"
+		},
+		"23name12": {
+			"name": "Reema Alsanee",
+			"position": "Software Engineer"
+		},
+		"23name13": {
+			"name": "Abdulrahman Alhassun",
+			"position": "Artist"
+		},
+		"23name14": {
+			"name": "Dalia Alhawi",
+			"position": "Artist"
+		},
+		"23name15": {
+			"name": "Khaled Hazzam",
+			"position": "Artist"
+		},
+		"23name16": {
+			"name": "Osama Khlefawi",
+			"position": "Artist"
+		},
+		"23name17": {
+			"name": "Tala Aljifri",
+			"position": "Photographer"
+		},
+		"23name18": {
+			"name": "Lana Abdulhadi",
+			"position": "Organizer"
+		},
+		"23name19": {
+			"name": "Maryam Abdulaziz",
+			"position": "Content Team Lead"
+		},
+		"23name20": {
+			"name": "Bayan Alsahli",
+			"position": "Content Creator"
+		},
+		"22name1": {
+			"name": "Yazeed Al-Khalaf",
+			"position": "Club Lead"
+		},
+		"22name2": {
+			"name": "Dhoha Bediwi",
+			"position": "Club Co-Lead"
+		},
+		"22name3": {
+			"name": "Khalil Melhem",
+			"position": "Engineering Lead"
+		},
+		"22name4": {
+			"name": "Basma Al-Hijji",
+			"position": "Public Relations Lead"
+		},
+		"22name5": {
+			"name": "Hala Al-Nadeem",
+			"position": "Content Team Lead"
+		},
+		"22name6": {
+			"name": "Mishal Al-Harbi",
+			"position": "Event Planning Lead"
+		},
+		"22name7": {
+			"name": "Mohammed Al-Brahim",
+			"position": "Club Treasurer"
+		},
+		"22name8": {
+			"name": "Abdullah Meraj",
+			"position": "Engineering Team"
+		},
+		"22name9": {
+			"name": "SalahEddin Thabet",
+			"position": "Engineering Team"
+		},
+		"22name10": {
+			"name": "Khaled Hazzam",
+			"position": "Design Team"
+		},
+		"22name11": {
+			"name": "Osama Khlefawi",
+			"position": "Design Team"
+		},
+		"22name12": {
+			"name": "Ward Mousa",
+			"position": "Design Team"
+		},
+		"22name13": {
+			"name": "Raghad Al-Saleh",
+			"position": "Public Relations Team"
+		},
+		"22name14": {
+			"name": "Rasha Khalid",
+			"position": "Public Relations Team"
+		},
+		"22name15": {
+			"name": "Dinah AbuRahmah",
+			"position": "Public Relations Team"
+		},
+		"22name16": {
+			"name": "Maryam Abdulaziz",
+			"position": "Account Manager"
+		},
+		"22name17": {
+			"name": "Maya Al-Saeed",
+			"position": "Account Manager"
+		}
+	},
 
 	"events22": {
 		"devfestTitle": "مهرجان التطوير السعودي 🎉",
