@@ -1,8 +1,8 @@
 <script lang="ts">
 	import { t, locale } from 'svelte-i18n';
 
-	import TeamContainer from './ui/TeamContainer.svelte';
-	import TeamButton from './ui/TeamButton.svelte';
+	import TeamContainer from './parts/TeamContainer.svelte';
+	import TeamButton from './parts/TeamButton.svelte';
 
 	import Spacer from '$lib/Spacer.svelte';
 	import { year } from '$lib/store';
