@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { t } from 'svelte-i18n';
+	import { t, locale } from 'svelte-i18n';
 
 	import TeamContainer from './ui/TeamContainer.svelte';
 	import TeamButton from './ui/TeamButton.svelte';
@@ -18,14 +18,20 @@
 	};
 
 	$: selectedYear = $year;
+	$: currentLocale = $locale;
+	$: isArabic = currentLocale === 'ar';
+
+	const arabicNumerals = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+	const convertToArabicNumerals = (numberString: string): string =>
+		numberString.replace(/\d/g, (digit) => arabicNumerals[parseInt(digit)]);
+
+	$: displayedYear = isArabic ? convertToArabicNumerals(selectedYear) : selectedYear;
 </script>
 
 <section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
 	<Spacer
-		title={`${
-			$t('team') === 'فريق' ? $t('team') + ' ' + selectedYear : selectedYear + ' ' + $t('team')
-		}!`}
+		title={`${isArabic ? `${$t('team')} ${displayedYear}` : `${displayedYear} ${$t('team')}`}!`}
 		color="yellow"
 	/>
 
