@@ -17,5 +17,5 @@
 	class="transition-transfrom duration-200 ease-in-out lg:hover:scale-90"
 	on:click={() => setLanguage($locale === 'ar' ? 'en' : 'ar')}
 >
-	<Globe class="h-9 w-9" />
+	<Globe class="h-8 w-8" />
 </button>

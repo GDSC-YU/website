@@ -40,19 +40,21 @@
 <header class="font-bold">
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
-			<DarkToggle />
-			<LangSwitcher />
+			<div class="flex items-center gap-x-3">
+				<DarkToggle />
+				<LangSwitcher />
+			</div>
 
 			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
 				<Menu
 					class={`${
 						isMenuOpen ? 'hidden' : ''
-					} h-9 w-9 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
+					} h-8 w-8 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
 				/>
 				<Close
 					class={`${
 						!isMenuOpen ? 'hidden' : ''
-					} h-9 w-9 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
+					} h-8 w-8 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
 				/>
 			</button>
 		</div>
