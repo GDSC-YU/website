@@ -6,7 +6,7 @@
 
 	import { ModeWatcher } from 'mode-watcher';
 
-	import '@fontsource-variable/open-sans';
+	import '@fontsource-variable/alexandria';
 
 	let combinedLoading = true;
 	let minLoadingTimeReached = false;

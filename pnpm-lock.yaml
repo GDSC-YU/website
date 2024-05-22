@@ -8,9 +8,9 @@ importers:
 
   .:
     devDependencies:
-      '@fontsource-variable/open-sans':
-        specifier: ^5.0.29
-        version: 5.0.29
+      '@fontsource-variable/alexandria':
+        specifier: ^5.0.13
+        version: 5.0.13
       '@iconify/json':
         specifier: ^2.2.212
         version: 2.2.212
@@ -382,8 +382,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@fontsource-variable/open-sans@5.0.29':
-    resolution: {integrity: sha512-p8T55iQwhErREcjY997t4ah9JKTyJNSBDDVfvVsWIQRGpA2fcTPk9rLue/Mkrr5/efkehxTSbT8JpTTRaFbM5A==}
+  '@fontsource-variable/alexandria@5.0.13':
+    resolution: {integrity: sha512-g/Nl3YQ2DioUyz/OcwmC1J/r6+T4n++ZCxfn/Y3Jm2DOlmg5onylI4Ya0eeuc1bNCyfaUDNxd/GHy2tE6e1P2w==}
 
   '@formatjs/ecma402-abstract@2.0.0':
     resolution: {integrity: sha512-rRqXOqdFmk7RYvj4khklyqzcfQl9vEL/usogncBHRZfZBDOwMGuSRNFl02fu5KGHXdbinju+YXyuR+Nk8xlr/g==}
@@ -1873,7 +1873,7 @@ snapshots:
   '@esbuild/win32-x64@0.20.2':
     optional: true
 
-  '@fontsource-variable/open-sans@5.0.29': {}
+  '@fontsource-variable/alexandria@5.0.13': {}
 
   '@formatjs/ecma402-abstract@2.0.0':
     dependencies:
