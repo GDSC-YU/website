@@ -12,55 +12,45 @@
 		contact: 'bg-google-green'
 	};
 
-	let activeSection: string | null;
+	let activeSection: ColorKeys | null = null;
 	let isScrolled = false;
 
 	function handleScroll() {
-		const sections = document.querySelectorAll('section[id]');
+		const sections = document.querySelectorAll<HTMLElement>('section[id]');
 		const scrollPosition = window.scrollY + window.innerHeight / 2;
 
 		if (scrollPosition <= window.innerHeight) {
 			isScrolled = false;
+			activeSection = null;
 			return;
 		}
 
 		for (let i = sections.length - 1; i >= 0; i--) {
-			const section = sections[i] as HTMLElement;
-			const top = section.offsetTop;
-			if (scrollPosition >= top) {
-				activeSection = section.id;
+			const section = sections[i];
+			if (scrollPosition >= section.offsetTop) {
+				activeSection = section.id as ColorKeys;
 				isScrolled = true;
 				break;
 			}
 		}
 	}
 
-	const getColor = (key: string): string => {
-		return colors[key as keyof typeof colors] || '';
-	};
-
 	onMount(() => {
 		window.addEventListener('scroll', handleScroll);
 	});
 
 	onDestroy(() => {
-		if (typeof window !== 'undefined') {
-			window.removeEventListener('scroll', handleScroll);
-		}
+		window.removeEventListener('scroll', handleScroll);
 	});
 </script>
 
-{#if isScrolled && activeSection != null}
+{#if isScrolled && activeSection}
 	<button
 		aria-label="Scroll to the top"
-		class="fixed bottom-8 right-8 z-50 {getColor(
+		class="fixed bottom-8 right-8 z-50 {colors[
 			activeSection
-		)} rounded-3xl p-2 text-white transition duration-300 ease-in-out hover:scale-105"
-		on:click={() => {
-			window.scrollTo({
-				top: 0
-			});
-		}}
+		]} rounded-3xl p-2 text-white transition duration-300 ease-in-out hover:scale-105"
+		on:click={() => window.scrollTo({ top: 0 })}
 	>
 		<ArrowIcon class="h-7 w-7" />
 	</button>
