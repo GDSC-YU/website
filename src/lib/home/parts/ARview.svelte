@@ -17,7 +17,7 @@
 	{#if ArCapable}
 		<a rel="ar" href="/models/ios/gdsc-logo.usdz" class="w-full">
 			<img src="/images/hack.jpg" class="opacity-0" alt="hack" />
-			<p class="flex items-center justify-center text-lg font-medium">
+			<p class="flex items-center justify-center text-lg">
 				View the GDSC Logo in AR <AR class="ml-2" />
 			</p>
 		</a>

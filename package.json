@@ -8,11 +8,10 @@
 		"preview": "vite preview",
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-		"lint": "prettier --check .",
 		"format": "prettier --write ."
 	},
 	"devDependencies": {
-		"@fontsource-variable/open-sans": "^5.0.29",
+		"@fontsource-variable/alexandria": "^5.0.13",
 		"@iconify/json": "^2.2.212",
 		"@splidejs/svelte-splide": "^0.2.9",
 		"@sveltejs/adapter-auto": "^3.2.1",
