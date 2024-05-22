@@ -1,20 +1,24 @@
 <script lang="ts">
+	import { t, _ } from 'svelte-i18n';
+
 	import TeamMemberComponent from './TeamMember.svelte';
-
 	import { year } from '$lib/store';
-
 	import { teamData } from '$data/teams/index';
 	import type { TeamMember, TeamData } from '$data/teams/index';
 
 	export let team: string;
 	let selectedTeamMembers: TeamMember[];
 
-	const teamKeyMapping: Record<string, string> = {
-		'Tech Team 💻': 'Engineering',
-		'Art Department 🎨': 'Design',
-		'Communications and PR 📧': 'Pr',
-		'Content Creators 🤳': 'Content'
-	};
+	let teamKeyMapping: Record<string, string> = {};
+
+	t.subscribe(($t) => {
+		teamKeyMapping = {
+			[$t('teams.tech')]: 'Engineering',
+			[$t('teams.art')]: 'Design',
+			[$t('teams.pr')]: 'Pr',
+			[$t('teams.cc')]: 'Content'
+		};
+	});
 
 	const getTeamMembers = (year: string, team: string): TeamMember[] => {
 		const teams: TeamData = teamData[year as keyof typeof teamData];
@@ -52,8 +56,8 @@
 	{#each selectedTeamMembers as member}
 		<TeamMemberComponent
 			img={member.image}
-			name={member.name}
-			position={member.position}
+			name={$_(`teamMembers.${member.nameKey}.name`)}
+			position={$_(`teamMembers.${member.positionKey}.position`)}
 			twitter={member.social.twitter}
 			github={member.social.github}
 			instagram={member.social.instagram}

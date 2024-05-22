@@ -11,12 +11,15 @@
 		rel="noreferrer"
 		aria-label="Our Twitter Account"
 	>
-		<TwitterIcon
-			class="h-6 w-6 transition-colors duration-200 ease-in-out hover:text-twitter-blue"
-		/>
+		<TwitterIcon class="h-6 w-6 transition-colors hover:text-twitter-blue" />
 	</a>
-	<a href="https://github.com/GDSC-YU" target="_blank" rel="noreferrer" aria-label="Our GitHub Org">
-		<GithubIcon class="h-6 w-6 transition-colors duration-200 ease-in-out hover:text-black" />
+	<a
+		href="https://github.com/GDSC-YU"
+		target="_blank"
+		rel="noreferrer"
+		aria-label="Our GitHub Organization"
+	>
+		<GithubIcon class="h-6 w-6 transition-colors hover:text-purple-500 dark:hover:text-black" />
 	</a>
 	<a
 		href="https://linkedin.com/company/gdsc-yu"
@@ -24,8 +27,6 @@
 		rel="noreferrer"
 		aria-label="Our LinkedIn Page"
 	>
-		<LinkedinIcon
-			class="h-6 w-6 transition-colors duration-200 ease-in-out hover:text-linkedin-blue"
-		/>
+		<LinkedinIcon class="h-6 w-6 transition-colors hover:text-linkedin-blue" />
 	</a>
 </span>

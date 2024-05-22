@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { t } from 'svelte-i18n';
+	import { t, locale } from 'svelte-i18n';
 
-	import TeamContainer from './ui/TeamContainer.svelte';
-	import TeamButton from './ui/TeamButton.svelte';
+	import TeamContainer from './parts/TeamContainer.svelte';
+	import TeamButton from './parts/TeamButton.svelte';
 
 	import Spacer from '$lib/Spacer.svelte';
 	import { year } from '$lib/store';
@@ -18,14 +18,20 @@
 	};
 
 	$: selectedYear = $year;
+	$: currentLocale = $locale;
+	$: isArabic = currentLocale === 'ar';
+
+	const arabicNumerals = ['٠', '١', '٢', '٣', '٤', '٥', '٦', '٧', '٨', '٩'];
+	const convertToArabicNumerals = (numberString: string): string =>
+		numberString.replace(/\d/g, (digit) => arabicNumerals[parseInt(digit)]);
+
+	$: displayedYear = isArabic ? convertToArabicNumerals(selectedYear) : selectedYear;
 </script>
 
 <section id="team" bind:this={teamSection}>
 	<!-- Wave Shape And Heading Text -->
 	<Spacer
-		title={`${
-			$t('team') === 'فريق' ? $t('team') + ' ' + selectedYear : selectedYear + ' ' + $t('team')
-		}!`}
+		title={`${isArabic ? `${$t('team')} ${displayedYear}` : `${displayedYear} ${$t('team')}`}!`}
 		color="yellow"
 	/>
 
@@ -33,10 +39,10 @@
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
 		<TeamContainer team="" />
 		{#if areShown}
-			<TeamContainer team="Tech Team 💻" />
-			<TeamContainer team="Art Department 🎨" />
-			<TeamContainer team="Communications and PR 📧" />
-			<TeamContainer team="Content Creators 🤳" />
+			<TeamContainer team={$t('teams.tech')} />
+			<TeamContainer team={$t('teams.art')} />
+			<TeamContainer team={$t('teams.pr')} />
+			<TeamContainer team={$t('teams.cc')} />
 		{/if}
 		<TeamButton showMembers={areShown} onClick={toggleMembers} />
 	</div>

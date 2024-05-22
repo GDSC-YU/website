@@ -8,6 +8,7 @@
 
 	$: eventsData = getEventsByYear($year).map((event) => ({
 		...event,
+		type: $t(event.type),
 		title: $t(event.title),
 		description: $t(event.description)
 	}));
@@ -27,7 +28,7 @@
 		aria-label="Our Most Recent Events"
 	>
 		{#each eventsData as event}
-			<SplideSlide class="flex h-96 justify-center">
+			<SplideSlide class="flex h-96 justify-center" dir="auto">
 				<div class="w-full sm:w-1/2">
 					<div
 						class="group relative flex h-full overflow-hidden rounded-2xl shadow-md hover:shadow-2xl"
@@ -43,12 +44,12 @@
 							class="relative z-10 flex w-full flex-col items-center justify-center gap-y-10 px-6 py-14 text-center text-slate-100 opacity-0 transition duration-100 ease-in-out hover:opacity-100"
 						>
 							<div>
-								<h1 class="text-xl font-bold tracking-widest text-google-blue md:text-2xl">
+								<h1 class="text-xl font-bold text-google-blue md:text-2xl ltr:tracking-widest">
 									{event.title}
 								</h1>
-								<p class="font-semibold tracking-wider md:text-lg">{event.type}</p>
+								<p class="font-semibold md:text-lg ltr:tracking-wider">{event.type}</p>
 							</div>
-							<p class="text-sm font-medium leading-relaxed md:text-base">{event.description}</p>
+							<p class="font-medium leading-relaxed">{event.description}</p>
 						</div>
 
 						<!-- Visible Content -->
@@ -56,7 +57,7 @@
 						<div class="absolute inset-0 flex items-center justify-center group-hover:invisible">
 							<div class="flex flex-col text-center text-slate-100">
 								<h1 class="text-xl font-extrabold md:text-3xl">{event.title}</h1>
-								<p class="font-bold md:text-xl">{event.type}</p>
+								<p class="font-bold md:text-xl rtl:mt-2">{event.type}</p>
 							</div>
 						</div>
 					</div>

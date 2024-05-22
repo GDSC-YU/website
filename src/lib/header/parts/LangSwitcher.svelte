@@ -1,8 +1,6 @@
 <script lang="ts">
 	import { locale } from 'svelte-i18n';
 
-	import Globe from '~icons/ri/global-line';
-
 	function setLanguage(lang: string) {
 		$locale = lang;
 		if (lang === 'ar') {
@@ -14,8 +12,9 @@
 </script>
 
 <button
-	class="transition-transfrom duration-200 ease-in-out lg:hover:scale-90"
+	type="button"
+	class="inline-flex h-10 items-center justify-center whitespace-nowrap rounded-2xl border border-secret px-4 py-2 text-sm font-medium transition-colors hover:bg-secret hover:text-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:border-slate-200 dark:hover:bg-slate-200 dark:hover:text-black"
 	on:click={() => setLanguage($locale === 'ar' ? 'en' : 'ar')}
 >
-	<Globe class="h-8 w-8" />
+	{$locale === 'ar' ? 'English' : 'العربيّة'}
 </button>
