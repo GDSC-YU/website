@@ -2,17 +2,17 @@ import { leads22, engineering22, design22, pr22, content22 } from './team22';
 import { leads23, engineering23, design23, pr23, content23 } from './team23';
 
 export interface SocialLinks {
-	twitter: string | null;
-	github: string | null;
-	instagram: string | null;
-	linkedin: string | null;
+	twitter?: string;
+	github?: string;
+	instagram?: string;
+	linkedin?: string;
 }
 
 export interface TeamMember {
 	nameKey: string;
 	positionKey: string;
 	team: string[];
-	image: string | null;
+	image?: string;
 	social: SocialLinks;
 }
 

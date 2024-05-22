@@ -10,10 +10,6 @@
 	"team": "Team",
 	"team22": "2022 - 2023 Team!",
 	"team23": "2023 - 2024 Team!",
-	"tech": "Tech Team 💻",
-	"art": "Art Department 🎨",
-	"pr": "Communications and PR 📧",
-	"cc": "Content Creators 🤳",
 	"showMore": "Show The Rest 😎",
 	"HideTeam": "Hide The Rest 😎",
 	"connect": "Connect With Us 📩",
@@ -25,6 +21,14 @@
 	"email": "Your Email:",
 	"message": "Your Message:",
 	"send": "Send",
+
+	"teams": {
+		"tech": "Tech Team 💻",
+		"art": "Art Department 🎨",
+		"pr": "Communications and PR 📧",
+		"cc": "Content Creators 🤳"
+	},
+
 	"teamMembers": {
 		"23name1": {
 			"name": "Khalil Melhem",

@@ -39,10 +39,10 @@
 	<div class="flex flex-col items-center gap-y-10 px-2 py-5 md:gap-y-12 lg:px-5">
 		<TeamContainer team="" />
 		{#if areShown}
-			<TeamContainer team="Tech Team 💻" />
-			<TeamContainer team="Art Department 🎨" />
-			<TeamContainer team="Communications and PR 📧" />
-			<TeamContainer team="Content Creators 🤳" />
+			<TeamContainer team={$t('teams.tech')} />
+			<TeamContainer team={$t('teams.art')} />
+			<TeamContainer team={$t('teams.pr')} />
+			<TeamContainer team={$t('teams.cc')} />
 		{/if}
 		<TeamButton showMembers={areShown} onClick={toggleMembers} />
 	</div>
