@@ -33,10 +33,10 @@
 		/>
 
 		<div class="flex-grow">
-			<h1 class="text-lg font-semibold tracking-wide text-gray-900 md:text-xl">
+			<h1 class="text-lg font-semibold tracking-wide text-gray-900">
 				{name}
 			</h1>
-			<p class="text-md font-medium text-gray-800 md:text-lg">{position}</p>
+			<p class="font-medium text-gray-800">{position}</p>
 			<!-- Social Icons -->
 			<div class="mt-1 flex gap-x-3">
 				{#each socialLinks as { url, icon: Icon, label, color }}
@@ -46,7 +46,7 @@
 							target="_blank"
 							rel="noreferrer"
 							aria-label={`${name}'s ${label} Profile`}
-							class="transition-transform duration-200 ease-in-out hover:scale-110"
+							class="transition-opacity hover:opacity-80"
 						>
 							<Icon class={`h-5 w-5 ${color}`} />
 						</a>
