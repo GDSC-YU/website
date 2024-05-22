@@ -1,9 +1,9 @@
 <script>
 	import { t } from 'svelte-i18n';
 
-	import Form from './ui/Form.svelte';
-	import LogoBreak from './ui/LogoBreak.svelte';
-	import SocialLinks from './ui/SocialLinks.svelte';
+	import Form from './parts/Form.svelte';
+	import LogoBreak from './parts/LogoBreak.svelte';
+	import SocialLinks from './parts/SocialLinks.svelte';
 
 	import Spacer from '$lib/Spacer.svelte';
 </script>
