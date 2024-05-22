@@ -176,6 +176,17 @@
 		}
 	},
 
+	"eventsTypes": {
+		"bootcamp": "Bootcamp",
+		"ceremony": "Ceremony",
+		"competition": "Competition",
+		"conference": "Conference",
+		"convention": "Convention",
+		"hackathon": "Hackathon",
+		"techTalk": "Tech Talk",
+		"workshop": "Workshop"
+	},
+
 	"events22": {
 		"devfestTitle": "DevFest Saudi 🎉",
 		"devfestDescription": "DevFests are local tech conferences hosted by Google Developer Groups around the world. These conferences focus on Google technologies. We enjoyed listening to experts talk about our favorite technologies and connecting with developers 💡",

@@ -8,6 +8,7 @@
 
 	$: eventsData = getEventsByYear($year).map((event) => ({
 		...event,
+		type: $t(event.type),
 		title: $t(event.title),
 		description: $t(event.description)
 	}));
