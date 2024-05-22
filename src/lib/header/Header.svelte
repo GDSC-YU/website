@@ -40,23 +40,20 @@
 <header class="font-bold">
 	<nav>
 		<div class="z-50 flex w-full justify-between p-5" class:fixed={isMenuOpen}>
+			<button
+				type="button"
+				class="inline-flex h-10 w-10 items-center justify-center whitespace-nowrap rounded-2xl border border-secret text-sm font-medium transition-colors hover:bg-secret hover:text-slate-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 dark:border-slate-200 dark:hover:bg-slate-200 dark:hover:text-black"
+				aria-label="Toggle Menu"
+				on:click={toggleMenu}
+			>
+				<Menu class={`${isMenuOpen ? 'hidden' : ''} h-[1.2rem] w-[1.2rem]`} />
+				<Close class={`${!isMenuOpen ? 'hidden' : ''} h-[1.2rem] w-[1.2rem]`} />
+			</button>
+
 			<div class="flex items-center gap-x-3">
 				<DarkToggle />
 				<LangSwitcher />
 			</div>
-
-			<button id="menu" aria-label="Toggle Menu" on:click={toggleMenu}>
-				<Menu
-					class={`${
-						isMenuOpen ? 'hidden' : ''
-					} h-8 w-8 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
-				/>
-				<Close
-					class={`${
-						!isMenuOpen ? 'hidden' : ''
-					} h-8 w-8 transition-transform duration-200 ease-in-out lg:hover:scale-90`}
-				/>
-			</button>
 		</div>
 
 		<div
