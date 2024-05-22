@@ -10,10 +10,10 @@
 
 <section
 	id="home"
-	class="flex flex-col items-center justify-between gap-y-10 py-14 md:flex-row lg:px-10 lg:py-20"
+	class="flex flex-col items-center justify-between gap-y-10 py-14 md:flex-row md:pr-4 lg:px-10 lg:py-20"
 >
 	<div
-		class="flex flex-col items-center gap-y-7 text-center dark:text-white md:w-1/2 md:items-start md:gap-y-6 md:text-left lg:flex-grow"
+		class="flex flex-col items-center gap-y-7 text-center dark:text-white md:w-1/2 md:items-start md:gap-y-8 md:text-left lg:flex-grow"
 	>
 		<h1
 			class="text-4xl leading-relaxed xl:text-6xl ltr:font-semibold md:ltr:text-left rtl:font-medium md:rtl:text-right"
