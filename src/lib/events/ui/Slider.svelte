@@ -28,7 +28,7 @@
 		aria-label="Our Most Recent Events"
 	>
 		{#each eventsData as event}
-			<SplideSlide class="flex h-96 justify-center">
+			<SplideSlide class="flex h-96 justify-center" dir="auto">
 				<div class="w-full sm:w-1/2">
 					<div
 						class="group relative flex h-full overflow-hidden rounded-2xl shadow-md hover:shadow-2xl"
