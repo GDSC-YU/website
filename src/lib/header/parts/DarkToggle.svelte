@@ -10,6 +10,6 @@
 	class="transition-transform duration-200 ease-in-out lg:hover:scale-90"
 	aria-label="Toggle Theme"
 >
-	<Sun class="hidden h-9 w-9 fill-current dark:flex " />
-	<Moon class="h-9 w-9 fill-current dark:hidden" />
+	<Sun class="hidden h-8 w-8 fill-current dark:flex " />
+	<Moon class="h-8 w-8 fill-current dark:hidden" />
 </button>
