@@ -27,7 +27,8 @@
 <div class="w-full p-2">
 	<div class="flex h-full items-center rounded-3xl bg-gray-50 p-4">
 		<img
-			src={img || `/images/initials/${name.charAt(0).toUpperCase()}.svg`}
+			src={img ||
+				`/images/initials/${$locale === 'ar' ? 'arabic' : 'english'}/${name.charAt(0).toUpperCase()}.svg`}
 			class={`${marginClass} h-20 w-20 flex-shrink-0 overflow-hidden rounded-full object-cover object-center`}
 			alt={img ? `${name}'s Image` : `${name}'s Initial`}
 		/>
