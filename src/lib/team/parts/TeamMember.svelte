@@ -34,7 +34,7 @@
 		/>
 
 		<div class="flex-grow">
-			<h1 class="text-lg font-semibold tracking-wide text-gray-900">
+			<h1 class="text-lg font-semibold text-gray-900 ltr:tracking-wide">
 				{name}
 			</h1>
 			<p class="font-medium text-gray-800">{position}</p>
