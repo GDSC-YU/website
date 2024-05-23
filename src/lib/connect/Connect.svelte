@@ -11,8 +11,8 @@
 <section id="contact">
 	<!-- Wave Shape And Heading Text -->
 	<Spacer title={$t('connect')} color="green" />
-	<!-- Content -->
 
+	<!-- Content -->
 	<div class="container mx-auto p-5">
 		<div class="mx-auto md:w-2/3 lg:w-1/2">
 			<Form />
@@ -29,7 +29,7 @@
 				<p class="my-5 font-medium leading-normal">
 					{$t('location')}
 					<br />
-					{$t('adress')}
+					{$t('address')}
 				</p>
 				<!-- Social Icons -->
 				<SocialLinks />
