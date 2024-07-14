@@ -6,7 +6,6 @@ export const leads23: TeamMember[] = [
 		positionKey: '23name1',
 		team: ['Leads'],
 		social: {
-			twitter: 'https://x.com/iKhalilM',
 			github: 'https://github.com/g9wz',
 			linkedin: 'https://linkedin.com/in/khalil-melhem'
 		}

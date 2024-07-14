@@ -19,7 +19,7 @@
 		rel="noreferrer"
 		aria-label="Our GitHub Organization"
 	>
-		<GithubIcon class="h-6 w-6 transition-colors hover:text-purple-500 dark:hover:text-black" />
+		<GithubIcon class="h-6 w-6 transition-colors hover:text-purple-500" />
 	</a>
 	<a
 		href="https://linkedin.com/company/gdsc-yu"

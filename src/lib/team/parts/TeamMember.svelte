@@ -47,7 +47,7 @@
 							target="_blank"
 							rel="noreferrer"
 							aria-label={`${name}'s ${label} Profile`}
-							class="transition-opacity hover:opacity-80"
+							class="transition-opacity hover:opacity-85"
 						>
 							<Icon class={`h-5 w-5 ${color}`} />
 						</a>

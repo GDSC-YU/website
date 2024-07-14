@@ -17,6 +17,6 @@
 
 <style lang="postcss">
 	button {
-		@apply transform rounded-lg border border-google-blue px-4 py-2 text-lg font-medium transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-google-blue active:translate-y-0 md:text-xl;
+		@apply transform rounded-lg border border-google-blue px-4 py-2 text-lg font-medium transition duration-200 ease-in hover:-translate-y-1 hover:border-transparent hover:bg-google-blue hover:text-slate-200 active:translate-y-0 md:text-xl;
 	}
 </style>

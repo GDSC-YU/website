@@ -38,7 +38,7 @@
 						<div
 							class="relative z-10 flex w-full flex-col items-center justify-center gap-y-6 px-8 py-[4.5rem] text-center opacity-0 transition duration-100 ease-in-out hover:opacity-100"
 						>
-							<h1 class="text-lg font-bold text-google-red ltr:tracking-widest">{name}</h1>
+							<h1 class="text-lg font-bold text-google-red ltr:tracking-wider">{name}</h1>
 							<p class="font-medium leading-relaxed text-slate-100">{description}</p>
 
 							<div class="invisible flex gap-x-5 group-hover:visible">
