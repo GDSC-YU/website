@@ -33,85 +33,178 @@
 
 	"teamMembers": {
 		"24name1": {
-			"name": "",
-			"position":""
+			"name": "Ayham K. Zeidan",
+			"position":"Club President"
 		},
 		"24name2": {
-			"name": "",
-			"position":""
+			"name": "Adnan Chaar",
+			"position":"Club Vice President"
 		},
 		"24name3": {
-			"name": "",
-			"position":""
+			"name": "Raghad Al-Saleh",
+			"position":"Head of Events & PR"
 		},
 		"24name4": {
-			"name": "",
-			"position":""
+			"name": "Naifah Alshawi",
+			"position":"Head of Art & Design"
 		},
 		"24name5": {
-			"name": "",
-			"position":""
+			"name": "Zaha Alruwais",
+			"position":"Head of Social Media & Content Creation"
 		},
 		"24name6": {
-			"name": "",
-			"position":""
+			"name": "Amro M. Elian",           
+			"position":"Software Engineer"
 		},
 		"24name7": {
-			"name": "",
-			"position":""
+			"name": "Abdullah Meraj",
+			"position":"lorem"
 		},
 		"24name8": {
-			"name": "",
-			"position":""
+			"name": "Lilyan Hasan",
+			"position":"lorem"
 		},
 		"24name9": {
-			"name": "",
-			"position":""
+			"name": "Ruqaya Siddiq",
+			"position":"lorem"
 		},
 		"24name10": {
-			"name": "",
-			"position":""
+			"name": "Mohammed Sawan",
+			"position":"lorem"
 		},
 		"24name11": {
-			"name": "",
-			"position":""
+			"name": "Aljawhara Bin Askar",
+			"position":"lorem"
 		},
 		"24name12": {
-			"name": "",
-			"position":""
+			"name": "Noor Alresaini",
+			"position":"lorem"
 		},
 		"24name13": {
-			"name": "",
-			"position":""
+			"name": "Lana Abdulhadi",
+			"position":"lorem"
 		},
 		"24name14": {
-			"name": "",
-			"position":""
+			"name": "Meshal Alshammri",
+			"position":"lorem"
 		},
 		"24name15": {
-			"name": "",
-			"position":""
+			"name": "Lama Faris",
+			"position":"lorem"
 		},
 		"24name16": {
-			"name": "",
-			"position":""
+			"name": "Riham Mohammed",
+			"position":"lorem"
 		},
 		"24name17": {
-			"name": "",
-			"position":""
+			"name": "Sara Alhaiji",
+			"position":"lorem"
 		},
 		"24name18": {
-			"name": "",
+			"name": "Ahmad Ghanoum",
 			"position":""
 		},
 		"24name19": {
-			"name": "",
-			"position":""
+			"name": "Sham Kottish",
+			"position":"lorem"
 		},
 		"24name20": {
-			"name": "",
-			"position":""
+			"name": "Shaikha Aldrees",
+			"position":"lorem"
 		},
+		"24name21": {
+			"name": "Zaha Alruwais",
+			"position":"lorem"
+		},
+		"24name22": {
+			"name": "Joud Hakeem",
+			"position":"lorem"
+		},
+		"24name23": {
+			"name": "Aya Taqash",
+			"position":"lorem"
+		},
+		"24name24": {
+			"name": "Abdulrahman Majed",
+			"position":"lorem"
+		},
+		"24name25": {
+			"name": "Ahmed Alabo",
+			"position":"lorem"
+		},
+		"24name26": {
+			"name": "Nura Ahmed",
+			"position":"lorem"
+		},
+		"24name27": {
+			"name": "Nawal Fadi",
+			"position":"lorem"
+		},
+		"24name28": {
+			"name": "Mohammed Binzouman",
+			"position":"lorem"
+		},
+		"24name29": {
+			"name": "Abdullah Alshuwaier",
+			"position":"lorem"
+		},
+		"24name30": {
+			"name": "Abdullah Alowain",
+			"position":"lorem"
+		},
+		"24name31": {
+			"name": "Tuleen Alshobaki",
+			"position":"lorem"
+		},
+		"24name32": {
+			"name": "Raghad Altaheri",
+			"position":"lorem"
+		},
+		"24name33": {
+			"name": "Nabiha Nasser",
+			"position":"lorem"
+		},
+		"24name34": {
+			"name": "Mays Alawi",
+			"position":"lorem"
+		},
+		"24name35": {
+			"name": "Zaha Alruwais",
+			"position":"lorem"
+		},
+		"24name36": {
+			"name": "Affan Ibrahim",
+			"position":"lorem"
+		},
+		"24name37": {
+			"name": "Abdulmalik aldawsari",
+			"position":"lorem"
+		},
+		"24name38": {
+			"name": "Joud Aloqaili",
+			"position":"lorem"
+		},
+		"24name39": {
+			"name": "Rahgad Alsultan",
+			"position":"lorem"
+		},
+		"24name40": {
+			"name": "Nawal Fadi",
+			"position":"lorem"
+		},
+		"24name42": {
+			"name": "Jana Yaghi",
+			"position":"lorem"
+		},
+		"24name43": {
+			"name": "Naifah Alshawi",
+			"position":"lorem"
+		},
+		"24name44": {
+			"name": "Farida Taha",
+			"position":"lorem"
+		},
+		
 		"23name1": {
 			"name": "Khalil Melhem",
 			"position": "Club Lead"
