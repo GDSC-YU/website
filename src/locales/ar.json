@@ -33,85 +33,162 @@
 
 	"teamMembers": {
 		"24name1": {
-			"name": "",
-			"position":""
+			"name": "أيهم زيدان",
+			"position":"Club President"
 		},
 		"24name2": {
-			"name": "",
-			"position":""
+			"name": "عدنان شعر",
+			"position":"Club Vice President"
 		},
 		"24name3": {
-			"name": "",
-			"position":""
+			"name": "رغد الصالح",
+			"position":"Head of Events & PR"
 		},
 		"24name4": {
-			"name": "",
-			"position":""
+			"name": "نايفه الشاوي",
+			"position":"Head of Art & Design"
 		},
 		"24name5": {
-			"name": "",
-			"position":""
+			"name": "Zaha Alruwais",
+			"position":"Head of Social Media & Content Creation"
 		},
 		"24name6": {
-			"name": "",
-			"position":""
+			"name": "عمرو",           
+			"position":"Software Engineer"
 		},
 		"24name7": {
-			"name": "",
-			"position":""
+			"name": "عبدالله ميراج",
+			"position":"lorem"
 		},
 		"24name8": {
-			"name": "",
-			"position":""
+			"name": "لليان حسن",
+			"position":"lorem"
 		},
 		"24name9": {
-			"name": "",
-			"position":""
+			"name": "رقية صديق",
+			"position":"lorem"
 		},
 		"24name10": {
-			"name": "",
-			"position":""
+			"name": "محمد سوان",
+			"position":"lorem"
 		},
 		"24name11": {
-			"name": "",
-			"position":""
+			"name": "الجوهرة بن عسكر",
+			"position":"lorem"
 		},
 		"24name12": {
-			"name": "",
-			"position":""
+			"name": "نور الرسيني",
+			"position":"lorem"
 		},
 		"24name13": {
-			"name": "",
-			"position":""
+			"name": "لانا عبدالهادي",
+			"position":"lorem"
 		},
 		"24name14": {
-			"name": "",
-			"position":""
+			"name": "مشعل الشمري",
+			"position":"lorem"
 		},
 		"24name15": {
-			"name": "",
-			"position":""
+			"name": "لمى فارس",
+			"position":"lorem"
 		},
 		"24name16": {
-			"name": "",
-			"position":""
+			"name": "ريهام محمد",
+			"position":"lorem"
 		},
 		"24name17": {
-			"name": "",
-			"position":""
+			"name": "ساره الهايجي",
+			"position":"lorem"
 		},
 		"24name18": {
-			"name": "",
+			"name": "احمد غنوم",
 			"position":""
 		},
 		"24name19": {
-			"name": "",
-			"position":""
+			"name": "شام",
+			"position":"lorem"
 		},
 		"24name20": {
-			"name": "",
-			"position":""
+			"name": "شيخه الدريس",
+			"position":"lorem"
 		},
+		"24name21": {
+			"name": "جود حكيم",
+			"position":"lorem"
+		},
+		"24name22": {
+			"name": "ايه",
+			"position":"lorem"
+		},
+		"24name23": {
+			"name": "عبدالرحمن ماجد",
+			"position":"lorem"
+		},
+		"24name24": {
+			"name": "احمد اللابو",
+			"position":"lorem"
+		},
+		"24name25": {
+			"name": "نوره احمد",
+			"position":"lorem"
+		},
+		"24name26": {
+			"name": "نوال فادي",
+			"position":"lorem"
+		},
+		"24name27": {
+			"name": "محمد بن زمان",
+			"position":"lorem"
+		},
+		"24name28": {
+			"name": "عبدالله الشويعر",
+			"position":"lorem"
+		},
+		"24name29": {
+			"name": "عبدالله العلوان",
+			"position":"lorem"
+		},
+		"24name30": {
+			"name": "تولين الشوباكي",
+			"position":"lorem"
+		},
+		"24name31": {
+			"name": "رغد الطاهري",
+			"position":"lorem"
+		},
+		"24name32": {
+			"name": "نبيهه ناصر",
+			"position":"lorem"
+		},
+		"24name33": {
+			"name": "ميس علاوي",
+			"position":"lorem"
+		},
+		"24name34": {
+			"name": "عفان ابراهيم",
+			"position":"lorem"
+		},
+		"24name35": {
+			"name": "عبدالملك الدوسري",
+			"position":"lorem"
+		},
+		"24name36": {
+			"name": "جود العقيلي",
+			"position":"lorem"
+		},
+		"24name37": {
+			"name": "رغد السلطان",
+			"position":"lorem"
+		},
+		"24name38": {
+			"name": "جنى ياغي",
+			"position":"lorem"
+		},
+		"24name39": {
+			"name": "فريدة طه",
+			"position":"lorem"
+		},
+
 		"23name1": {
 			"name": "خليل ملحم",
 			"position": "قائد النادي"
