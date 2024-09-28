@@ -7,13 +7,13 @@
 </script>
 
 <div class="flex flex-col items-center justify-center gap-5 pb-5 pt-10 md:flex-row md:pt-12">
-	{#if currentYear !== '2022 - 2023'}
+	{#if currentYear !== '2022 - 2023' && currentYear === '2024 - 2025'}
 		<button on:click={() => year.set('2022 - 2023')}>{$t('team22')}</button>
 	{/if}
-	{#if currentYear !== '2023 - 2024'}
+	{#if currentYear !== '2023 - 2024' && currentYear === '2022 - 2023'}
 		<button on:click={() => year.set('2023 - 2024')}>{$t('team23')}</button>
 	{/if}
-	{#if currentYear !== '2024 - 2025'}
+	{#if currentYear !== '2024 - 2025' && currentYear === '2023 - 2024'}
 		<button on:click={() => year.set('2024 - 2025')}>{$t('team24')}</button>
 	{/if}
 </div>
