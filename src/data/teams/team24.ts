@@ -75,8 +75,9 @@ export const engineering24: TeamMember[] = [
 		positionKey: '24name8',
 		team: ['Engineering'],
 		social: {
-			github: '',
-			linkedin: ''
+			github: 'https://github.com/Lily-270',
+			linkedin: '', 
+			twitter: 'https://x.com/lillllh2'
 		}
 	},
 	{
@@ -84,7 +85,7 @@ export const engineering24: TeamMember[] = [
 		positionKey: '24name9',
 		team: ['Engineering'],
 		social: {
-			github: '',
+			github: 'https://github.com/RuqayaS',
 			linkedin: ''
 		}
 	},
@@ -111,8 +112,8 @@ export const engineering24: TeamMember[] = [
 		positionKey: '24name12',
 		team: ['Engineering'],
 		social: {
-			github: '',
-			linkedin: ''
+			github: 'https://github.com/newta105',
+			linkedin: 'https://sa.linkedin.com/in/noor-alresaini-300061227'
 		}
 	},
 	{
@@ -129,7 +130,7 @@ export const engineering24: TeamMember[] = [
 		positionKey: '24name14',
 		team: ['Engineering'],
 		social: {
-			github: '',
+			github: 'https://github.com/Meshshammri',
 			linkedin: ''
 		}
 	}
@@ -224,15 +225,16 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name17',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/sara-alhaiji-50354220b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
 		nameKey: '24name18',
 		positionKey: '24name18',
 		team: ['Pr'],
+		image: '/images/humans/Ahmad Ghanoum.jpeg',
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/ahmad-ghanoum-9a13041a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -240,7 +242,7 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name19',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/sham-kottish-60a230295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -265,7 +267,7 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name22',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/aya-taqash-90b02432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
