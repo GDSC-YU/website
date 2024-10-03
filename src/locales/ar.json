@@ -34,214 +34,195 @@
 	"teamMembers": {
 		"24name1": {
 			"name": "أيهم زيدان",
-			"position":"رئيس النادي"
+			"position": "رئيس النادي"
 		},
 		"24name2": {
 			"name": "عدنان شعار",
-			"position":"نائب رئيس النادي"
+			"position": "نائب رئيس النادي"
 		},
 		"24name3": {
 			"name": "رغد الصالح",
-			"position":"قائد فريق العلاقات العامة"
+			"position": "قائد فريق العلاقات العامة"
 		},
 		"24name4": {
 			"name": "نايفه الشاوي",
-			"position":"قائد فريق التصميم"
+			"position": "قائد فريق التصميم"
 		},
 		"24name5": {
-<<<<<<< HEAD
 			"name": "زهى الرويس",
-			"position":"قائد فريق المحتوى"
+			"position": "قائد فريق المحتوى"
 		},
 		"24name6": {
-			"name": "عمرو عليان",           
-			"position":"مهندس برمجيات"
-=======
-			"name": "زها الرويس",
-			"position":"Head of Social Media & Content Creation"
-		},
-		"24name6": {
-			"name": " عمرو محمد عليان",           
-			"position":"Software Engineer"
->>>>>>> 4dc7deeba446408b0a93622fc6d955ea9492470e
+			"name": "عمرو محمد عليان",
+			"position": "مهندس برمجيات"
 		},
 		"24name7": {
 			"name": "عبدالله ميراج",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name8": {
 			"name": "لليان حسن",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name9": {
 			"name": "رقية صديق",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name10": {
 			"name": "محمد سوان",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name11": {
 			"name": "الجوهرة بن عسكر",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name12": {
 			"name": "نور الرسيني",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name13": {
 			"name": "لانا عبدالهادي",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name14": {
 			"name": "مشعل الشمري",
-			"position":"مهندس برمجيات"
+			"position": "مهندس برمجيات"
 		},
 		"24name15": {
 			"name": "لمى فارس",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name16": {
 			"name": "ريهام محمد",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name17": {
 			"name": "ساره الهايجي",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name18": {
 			"name": "احمد غنوم",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name19": {
-<<<<<<< HEAD
-			"name": "شام",
-			"position":"منظم"
-=======
-			"name": " شام قطيش",
-			"position":"lorem"
->>>>>>> 4dc7deeba446408b0a93622fc6d955ea9492470e
+			"name": "شام قطيش",
+			"position": "منظم"
 		},
 		"24name20": {
 			"name": "شيخه الدريس",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name21": {
 			"name": "جود حكيم",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name22": {
-<<<<<<< HEAD
-			"name": "ايه",
-			"position":"منظم"
-=======
 			"name": " آيه طقش",
-			"position":"lorem"
->>>>>>> 4dc7deeba446408b0a93622fc6d955ea9492470e
+			"position": "منظم"
 		},
 		"24name23": {
 			"name": "عبدالرحمن ماجد",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name24": {
 			"name": "أحمد العبو",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name25": {
 			"name": "نوره احمد",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name26": {
 			"name": "نوال فادي",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name27": {
 			"name": "محمد بن زمان",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name28": {
 			"name": "عبدالله الشويعر",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name29": {
 			"name": "عبدالله بن عوين",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name30": {
 			"name": "تولين الشوباكي",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name31": {
 			"name": "رغد الطاهري",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name32": {
 			"name": "نبيها ناصر",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name33": {
 			"name": "ميس علاوي",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name34": {
 			"name": "عفان إبراهيم",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name35": {
 			"name": "عبدالملك الدوسري",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name36": {
 			"name": "جود العقيلي",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name37": {
 			"name": "رغد السلطان",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name38": {
 			"name": "جنى ياغي",
-			"position":"منشئ محتوى"
+			"position": "منشئ محتوى"
 		},
 		"24name39": {
 			"name": "فريده طه",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name40": {
 			"name": "روح المطيري",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name41": {
 			"name": "ألماس ناصر",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name42": {
 			"name": "انبار العتيبي",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name43": {
 			"name": "أسيل نوفل",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name44": {
 			"name": "لانا أبودقه",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name45": {
 			"name": "الجازي الشهراني",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name46": {
 			"name": "إلياء السقا",
-			"position":"منظم"
+			"position": "منظم"
 		},
 		"24name47": {
 			"name": "لانا ماهر",
-			"position":"فنان"
+			"position": "فنان"
 		},
 		"24name48": {
 			"name": "شادن الزهراني",
-			"position":"فنان"
+			"position": "فنان"
 		},
 
 		"23name1": {
