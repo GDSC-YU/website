@@ -49,12 +49,21 @@
 			"position":"قائد فريق التصميم"
 		},
 		"24name5": {
+<<<<<<< HEAD
 			"name": "زهى الرويس",
 			"position":"قائد فريق المحتوى"
 		},
 		"24name6": {
 			"name": "عمرو عليان",           
 			"position":"مهندس برمجيات"
+=======
+			"name": "زها الرويس",
+			"position":"Head of Social Media & Content Creation"
+		},
+		"24name6": {
+			"name": " عمرو محمد عليان",           
+			"position":"Software Engineer"
+>>>>>>> 4dc7deeba446408b0a93622fc6d955ea9492470e
 		},
 		"24name7": {
 			"name": "عبدالله ميراج",
@@ -105,8 +114,13 @@
 			"position":"منظم"
 		},
 		"24name19": {
+<<<<<<< HEAD
 			"name": "شام",
 			"position":"منظم"
+=======
+			"name": " شام قطيش",
+			"position":"lorem"
+>>>>>>> 4dc7deeba446408b0a93622fc6d955ea9492470e
 		},
 		"24name20": {
 			"name": "شيخه الدريس",
@@ -117,8 +131,13 @@
 			"position":"منظم"
 		},
 		"24name22": {
+<<<<<<< HEAD
 			"name": "ايه",
 			"position":"منظم"
+=======
+			"name": " آيه طقش",
+			"position":"lorem"
+>>>>>>> 4dc7deeba446408b0a93622fc6d955ea9492470e
 		},
 		"24name23": {
 			"name": "عبدالرحمن ماجد",
