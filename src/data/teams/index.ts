@@ -1,7 +1,6 @@
 import { leads22, engineering22, design22, pr22, content22 } from './team22';
 import { leads23, engineering23, design23, pr23, content23 } from './team23';
 import { leads24, engineering24, design24, pr24, content24 } from './team24';
-//import { content24 } from './team24';
 
 export interface SocialLinks {
 	twitter?: string;

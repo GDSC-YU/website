@@ -15,14 +15,13 @@
 
 	{#if currentYear !== '2022 - 2023' && currentYear === '2024 - 2025'}
 		<button on:click={() => year.set('2022 - 2023')}>{$t('team22')}</button>
-	{/if}	
+	{/if}
 	{#if currentYear !== '2023 - 2024' && currentYear === '2022 - 2023'}
 		<button on:click={() => year.set('2023 - 2024')}>{$t('team23')}</button>
 	{/if}
 	{#if currentYear !== '2024 - 2025' && currentYear === '2023 - 2024'}
 		<button on:click={() => year.set('2024 - 2025')}>{$t('team24')}</button>
 	{/if}
-	
 </div>
 
 <style lang="postcss">
