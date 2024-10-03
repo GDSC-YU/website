@@ -138,11 +138,69 @@ export const engineering24: TeamMember[] = [
 export const design24: TeamMember[] = [
 	{
 		nameKey: '24name39',
-		positionKey: '24name40',
+		positionKey: '24name39',
 		team: ['Design'],
 		social: {
-
+			linkedin: ''
+		},
+	},
+	{
+		nameKey: '24name41',
+		positionKey: '24name41',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/almas-alsehli-5b57a9325'
 		}
+	},
+	{
+		nameKey: '24name42',
+		positionKey: '24name42',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/anbar-alotaibi-04325a297'
+		}
+	},
+	{
+		nameKey: '24name43',
+		positionKey: '24name43',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/aseel-nofal-5204402b2'
+		}
+	},
+	{
+		nameKey: '24name44',
+		positionKey: '24name44',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/lana-abudaqqa-52030b2a9'
+		}
+	},
+	{
+		nameKey: '24name45',
+		positionKey: '24name45',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/aljazi-alshahrani-aa9568306'
+		}
+
+	},
+	{
+		nameKey: '24name47',
+		positionKey: '24name47',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/lana-maher-5198a1324'
+		}
+
+	},
+	{
+		nameKey: '24name48',
+		positionKey: '24name48',
+		team: ['Design'],
+		social: {
+			linkedin: 'http://linkedin.com/in/shaden-al-zahrani-b35550290'
+	}
 	}
 ];
 
@@ -192,7 +250,8 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name20',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			github: 'https://github.com/ShaikhaAldrees',
+			linkedin: 'https://www.linkedin.com/in/shaikha-aldrees-2a22b1226/'
 		}
 	},
 	{
@@ -223,8 +282,9 @@ export const pr24: TeamMember[] = [
 		nameKey: '24name24',
 		positionKey: '24name24',
 		team: ['Pr'],
+		image: '/images/humans/Ahmed Alabo.jpeg',
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/ahmed-alabo-21b275327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -238,9 +298,9 @@ export const pr24: TeamMember[] = [
 	{
 		nameKey: '24name26',
 		positionKey: '24name26',
-		team: ['Pr'],
+		team: ['Pr', 'Events'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/nawal-fadi-085a4431a/'
 		}
 	},
 	{
@@ -256,7 +316,7 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name28',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/abdullah-alshuwaier-39635b32a/'
 		}
 	},
 	{
@@ -264,7 +324,7 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name29',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/abdullah-al-owain-b9a452328?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -280,10 +340,18 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name31',
 		team: ['Pr'],
 		social: {
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/nawal-fadi-085a4431a'
 		}
 	},
-	
+	{
+		nameKey: '24name46',
+		positionKey: '24name46',
+		team: ['Pr'],
+		social: {
+			linkedin: 'http://linkedin.com/in/elia-alsaqqa-6033872a7'
+		}
+
+	},
 ];
 
 export const content24: TeamMember[] = [
@@ -302,9 +370,8 @@ export const content24: TeamMember[] = [
 		positionKey: '24name33',
 		team: ['Content'],
 		social: {
-            twitter: '',
-			github: '',
-			linkedin: ''
+            twitter: 'https://x.com/not_mays_?s=21',
+			linkedin: 'https://www.linkedin.com/in/mays-alawi-211226323?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -312,9 +379,7 @@ export const content24: TeamMember[] = [
 		positionKey: '24name34',
 		team: ['Content'],
 		social: {
-            twitter: '',
-			github: '',
-			linkedin: ''
+			linkedin: 'https://www.linkedin.com/in/affan-mohammed-ibrahim-b11a21236/'
 		}
 	},
 	{

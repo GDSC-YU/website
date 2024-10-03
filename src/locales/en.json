@@ -1,10 +1,10 @@
 {
 	"Dev": "Developer",
-	"Club": "Student Club",
+	"Club": "Groups",
 	"Yu": "Yu",
 	"LGC": "Learn, Grow, and Connect!",
 	"join": "Community Website",
-	"view_in_AR": "View the GDSC Logo in AR",
+	"view_in_AR": "View the GDG Logo in AR",
 	"events": "Most Recent Events 📚",
 	"workshop": "Workshop",
 	"projects": "Explore Our Projects 🚀",
@@ -26,8 +26,8 @@
 
 	"teams": {
 		"tech": "Tech Team 💻",
-		"art": "Art Department 🎨",
-		"pr": "Communications and PR 📧",
+		"art": "Art & Creation 🎨",
+		"pr": "Events & PR 📧",
 		"cc": "Content Creators 🤳"
 	},
 
@@ -46,7 +46,7 @@
 		},
 		"24name4": {
 			"name": "Naifah Alshawi",
-			"position":"Head of Art & Design"
+			"position":"Head of Art & Creation"
 		},
 		"24name5": {
 			"name": "Zaha Alruwais",
@@ -58,136 +58,174 @@
 		},
 		"24name7": {
 			"name": "Abdullah Meraj",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name8": {
 			"name": "Lilyan Hasan",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name9": {
 			"name": "Ruqaya Siddiq",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name10": {
 			"name": "Mohammed Sawan",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name11": {
 			"name": "Aljawhara Bin Askar",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name12": {
 			"name": "Noor Alresaini",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name13": {
 			"name": "Lana Abdulhadi",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name14": {
 			"name": "Meshal Alshammri",
-			"position":"lorem"
+			"position":"Software Engineer"
 		},
 		"24name15": {
 			"name": "Lama Faris",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name16": {
 			"name": "Riham Mohammed",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name17": {
 			"name": "Sara Alhaiji",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name18": {
 			"name": "Ahmad Ghanoum",
-			"position":""
+			"position":"Organizer"
 		},
 		"24name19": {
 			"name": "Sham Kottish",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name20": {
 			"name": "Shaikha Aldrees",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name21": {
 			"name": "Joud Hakeem",
-			"position":"lorem"
+			"position":"Organizer"
 		},
+
 		"24name22": {
 			"name": "Aya Taqash",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name23": {
 			"name": "Abdulrahman Majed",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name24": {
 			"name": "Ahmed Alabo",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name25": {
 			"name": "Nura Ahmed",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name26": {
 			"name": "Nawal Fadi",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name27": {
 			"name": "Mohammed Binzouman",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name28": {
 			"name": "Abdullah Alshuwaier",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name29": {
-			"name": "Abdullah Alowain",
-			"position":"lorem"
+			"name": "Abdullah Al-owain",
+			"position":"Organizer"
 		},
 		"24name30": {
 			"name": "Tuleen Alshobaki",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name31": {
 			"name": "Raghad Altaheri",
-			"position":"lorem"
+			"position":"Organizer"
 		},
 		"24name32": {
 			"name": "Nabiha Nasser",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name33": {
 			"name": "Mays Alawi",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name34": {
 			"name": "Affan Ibrahim",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name35": {
 			"name": "Abdulmalik aldawsari",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name36": {
 			"name": "Joud Aloqaili",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name37": {
 			"name": "Raghad Alsultan",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name38": {
 			"name": "Jana Yaghi",
-			"position":"lorem"
+			"position":"Content Creator"
 		},
 		"24name39": {
 			"name": "Farida Taha",
-			"position":"lorem"
+			"position":"Artist"
 		},
+		"24name40": {
+			"name": "Rouh Almutairi",
+			"position":"Organizer"
+		},
+		"24name41": {
+			"name": "Almas Nasser",
+			"position":"Artist"
+		},
+		"24name42": {
+			"name": "Anbar Alotaibi",
+			"position":"Artist"
+		},
+		"24name43": {
+			"name": "Aseel Nofal",
+			"position":"Artist"
+		},
+		"24name44": {
+			"name": "Lana Abudaqa",
+			"position":"Artist"
+		},
+		"24name45": {
+			"name": "Aljazi Alshahrani",
+			"position":"Artist"
+		},
+		"24name46": {
+			"name": "Elia Alsaqqa",
+			"position":"Organizer"
+		},
+		"24name47": {
+			"name": "Lana Maher",
+			"position":"Artist"
+		},
+		"24name48": {
+			"name": "Shaden Al-zahrani",
+			"position":"Artist"
+		},
+
 		
 		"23name1": {
 			"name": "Khalil Melhem",
