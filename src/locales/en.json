@@ -24,6 +24,11 @@
 	"message": "Your Message:",
 	"send": "Send",
 
+	"meta": {
+		"title": "Google DG on Campus | Al Yamamah",
+		"description": "Welcome to the official website of Al Yamamah's University Google Developer Groups on Campus!"
+	},
+
 	"teams": {
 		"tech": "Tech Team 💻",
 		"art": "Art & Creation 🎨",
