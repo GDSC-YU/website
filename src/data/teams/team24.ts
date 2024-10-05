@@ -27,7 +27,7 @@ export const leads24: TeamMember[] = [
 		image: '/images/humans/Raghad Al-Saleh.png',
 		social: {
 			github: 'https://github.com/RGD111',
-			linkedin: 'https://linkedin.com/in/ward-mousa-27bb8310a'
+			linkedin: 'https://linkedin.com/in/raghad-alsaleh-059208220'
 		}
 	},
 	{
@@ -87,7 +87,9 @@ export const engineering24: TeamMember[] = [
 		nameKey: '24name11',
 		positionKey: '24name11',
 		team: ['Engineering'],
-		social: {}
+		social: {
+			linkedin: 'https://sa.linkedin.com/in/aljawhara-bin-askar-a9b64b222'
+		}
 	},
 	{
 		nameKey: '24name12',
