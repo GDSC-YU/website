@@ -8,9 +8,9 @@
 
 	import ScrollUp from '$lib/ScrollUp.svelte';
 
-	const title = 'Google DG | Al Yamamah';
+	const title = 'Google DG on Campus | Al Yamamah';
 	const description =
-		"Welcome to the official website of Al Yamamah's University Google Developer Groups!";
+		"Welcome to the official website of Al Yamamah's University Google Developer Groups on Campus!";
 </script>
 
 <svelte:head>
