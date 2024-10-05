@@ -5,9 +5,9 @@
 	$: currentYear = $year;
 
 	const yearOptions = [
-		{ label: '2022 - 2023', value: '2022 - 2023' },
-		{ label: '2023 - 2024', value: '2023 - 2024' },
-		{ label: '2024 - 2025', value: '2024 - 2025' }
+		{ labelKey: 'team22', value: '2022 - 2023' },
+		{ labelKey: 'team23', value: '2023 - 2024' },
+		{ labelKey: 'team24', value: '2024 - 2025' }
 	];
 
 	function handleYearChange(event: Event) {
@@ -20,9 +20,9 @@
 
 <div class="flex flex-col items-center justify-center gap-5 pb-5 pt-10 md:flex-row md:pt-0">
 	<select on:change={handleYearChange} bind:value={currentYear} class="text-lg font-normal">
-		{#each yearOptions as { label, value }}
+		{#each yearOptions as { labelKey, value }}
 			<option {value} disabled={currentYear === value}>
-				{$t(label)}
+				{$t(labelKey)}
 			</option>
 		{/each}
 	</select>
