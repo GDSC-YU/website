@@ -34,19 +34,13 @@ export const leads24: TeamMember[] = [
 		nameKey: '24name4',
 		positionKey: '24name4',
 		team: ['Leads', 'Design'],
-		social: {
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name5',
 		positionKey: '24name5',
 		team: ['Leads', 'Content'],
-		social: {
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	}
 ];
 
@@ -55,10 +49,7 @@ export const engineering24: TeamMember[] = [
 		nameKey: '24name6',
 		positionKey: '24name6',
 		team: ['Engineering'],
-		social: {
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name7',
@@ -66,8 +57,7 @@ export const engineering24: TeamMember[] = [
 		image: '/images/humans/Abdullah Miraj.png',
 		team: ['Engineering'],
 		social: {
-			github: 'https://github.com/Abd-404',
-			linkedin: ''
+			github: 'https://github.com/Abd-404'
 		}
 	},
 	{
@@ -76,7 +66,6 @@ export const engineering24: TeamMember[] = [
 		team: ['Engineering'],
 		social: {
 			github: 'https://github.com/Lily-270',
-			linkedin: '', 
 			twitter: 'https://x.com/lillllh2'
 		}
 	},
@@ -85,27 +74,20 @@ export const engineering24: TeamMember[] = [
 		positionKey: '24name9',
 		team: ['Engineering'],
 		social: {
-			github: 'https://github.com/RuqayaS',
-			linkedin: ''
+			github: 'https://github.com/RuqayaS'
 		}
 	},
 	{
 		nameKey: '24name10',
 		positionKey: '24name10',
 		team: ['Engineering'],
-		social: {
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name11',
 		positionKey: '24name11',
 		team: ['Engineering'],
-		social: {
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name12',
@@ -120,18 +102,14 @@ export const engineering24: TeamMember[] = [
 		nameKey: '24name13',
 		positionKey: '24name13',
 		team: ['Engineering'],
-		social: {
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name14',
 		positionKey: '24name14',
 		team: ['Engineering'],
 		social: {
-			github: 'https://github.com/Meshshammri',
-			linkedin: ''
+			github: 'https://github.com/Meshshammri'
 		}
 	}
 ];
@@ -141,9 +119,7 @@ export const design24: TeamMember[] = [
 		nameKey: '24name39',
 		positionKey: '24name39',
 		team: ['Design'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name41',
@@ -208,24 +184,21 @@ export const pr24: TeamMember[] = [
 		nameKey: '24name15',
 		positionKey: '24name15',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name16',
 		positionKey: '24name16',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name17',
 		positionKey: '24name17',
 		team: ['Pr'],
 		social: {
-			linkedin: 'https://www.linkedin.com/in/sara-alhaiji-50354220b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+			linkedin:
+				'https://www.linkedin.com/in/sara-alhaiji-50354220b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -234,7 +207,8 @@ export const pr24: TeamMember[] = [
 		team: ['Pr'],
 		image: '/images/humans/Ahmad Ghanoum.jpeg',
 		social: {
-			linkedin: 'https://www.linkedin.com/in/ahmad-ghanoum-9a13041a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+			linkedin:
+				'https://www.linkedin.com/in/ahmad-ghanoum-9a13041a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -242,7 +216,8 @@ export const pr24: TeamMember[] = [
 		positionKey: '24name19',
 		team: ['Pr'],
 		social: {
-			linkedin: 'https://www.linkedin.com/in/sham-kottish-60a230295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+			linkedin:
+				'https://www.linkedin.com/in/sham-kottish-60a230295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
@@ -258,25 +233,22 @@ export const pr24: TeamMember[] = [
 		nameKey: '24name21',
 		positionKey: '24name21',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name22',
 		positionKey: '24name22',
 		team: ['Pr'],
 		social: {
-			linkedin: 'https://www.linkedin.com/in/aya-taqash-90b02432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
+			linkedin:
+				'https://www.linkedin.com/in/aya-taqash-90b02432b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app'
 		}
 	},
 	{
 		nameKey: '24name23',
 		positionKey: '24name24',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name24',
@@ -292,9 +264,7 @@ export const pr24: TeamMember[] = [
 		nameKey: '24name25',
 		positionKey: '24name25',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name26',
@@ -308,9 +278,7 @@ export const pr24: TeamMember[] = [
 		nameKey: '24name27',
 		positionKey: '24name27',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name28',
@@ -333,9 +301,7 @@ export const pr24: TeamMember[] = [
 		nameKey: '24name30',
 		positionKey: '24name30',
 		team: ['Pr'],
-		social: {
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name31',
@@ -360,11 +326,7 @@ export const content24: TeamMember[] = [
 		nameKey: '24name32',
 		positionKey: '24name32',
 		team: ['Content'],
-		social: {
-			twitter: '',
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name33',
@@ -388,30 +350,18 @@ export const content24: TeamMember[] = [
 		nameKey: '24name36',
 		positionKey: '24name36',
 		team: ['Content'],
-		social: {
-			twitter: '',
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name37',
 		positionKey: '24name37',
 		team: ['Content'],
-		social: {
-			twitter: '',
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	},
 	{
 		nameKey: '24name38',
 		positionKey: '24name38',
 		team: ['Content'],
-		social: {
-			twitter: '',
-			github: '',
-			linkedin: ''
-		}
+		social: {}
 	}
 ];
