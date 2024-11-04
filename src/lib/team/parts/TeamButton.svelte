@@ -38,7 +38,7 @@
 <style lang="postcss">
 	button,
 	select {
-		@apply transform rounded-lg border border-google-yellow px-4 py-2 text-lg font-medium transition duration-200 ease-in focus:outline-none focus:ring-2 focus:ring-google-yellow;
+		@apply transform rounded-lg border border-google-yellow bg-transparent px-4 py-2 text-lg font-medium transition duration-200 ease-in focus:outline-none focus:ring-2 focus:ring-google-yellow;
 	}
 
 	select {

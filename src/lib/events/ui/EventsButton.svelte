@@ -30,6 +30,6 @@
 
 <style lang="postcss">
 	select {
-		@apply rounded-lg border border-google-blue px-4 py-2 text-lg transition duration-200 ease-in focus:outline-none focus:ring-2 focus:ring-google-blue;
+		@apply rounded-lg border border-google-blue bg-transparent px-4 py-2 text-lg transition duration-200 ease-in focus:outline-none focus:ring-2 focus:ring-google-blue;
 	}
 </style>
