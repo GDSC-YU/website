@@ -1,16 +1,17 @@
 {
 	"Dev": "Developer",
-	"Club": "Student Club",
+	"Club": "Groups",
 	"Yu": "Yu",
 	"LGC": "Learn, Grow, and Connect!",
 	"join": "Community Website",
-	"view_in_AR": "View the GDSC Logo in AR",
+	"view_in_AR": "View the GDG Logo in AR",
 	"events": "Most Recent Events 📚",
 	"workshop": "Workshop",
 	"projects": "Explore Our Projects 🚀",
 	"team": "Team",
 	"team22": "2022 - 2023 Team!",
 	"team23": "2023 - 2024 Team!",
+	"team24": "2024 - 2025 Team!",
 	"showMore": "Show The Rest 😎",
 	"HideTeam": "Hide The Rest 😎",
 	"connect": "Connect With Us 📩",
@@ -23,14 +24,212 @@
 	"message": "Your Message:",
 	"send": "Send",
 
+	"meta": {
+		"title": "Google DG on Campus | Al Yamamah",
+		"description": "Welcome to the official website of Al Yamamah's University Google Developer Groups on Campus!"
+	},
+
 	"teams": {
 		"tech": "Tech Team 💻",
-		"art": "Art Department 🎨",
-		"pr": "Communications and PR 📧",
+		"art": "Art & Creation 🎨",
+		"pr": "Events & PR 📧",
 		"cc": "Content Creators 🤳"
 	},
 
 	"teamMembers": {
+		"24name1": {
+			"name": "Ayham K. Zeidan",
+			"position": "Club President"
+		},
+		"24name2": {
+			"name": "Adnan Chaar",
+			"position": "Club Vice President"
+		},
+		"24name3": {
+			"name": "Raghad Al-Saleh",
+			"position": "Head of Events & PR"
+		},
+		"24name4": {
+			"name": "Naifah Alshawi",
+			"position": "Head of Art & Creation"
+		},
+		"24name5": {
+			"name": "Zaha Alruwais",
+			"position": "Head of Social Media & Content Creation"
+		},
+		"24name6": {
+			"name": "Amro M. Elian",
+			"position": "Software Engineer"
+		},
+		"24name7": {
+			"name": "Abdullah Meraj",
+			"position": "Software Engineer"
+		},
+		"24name8": {
+			"name": "Lilyan Hasan",
+			"position": "Software Engineer"
+		},
+		"24name9": {
+			"name": "Ruqaya Siddiq",
+			"position": "Software Engineer"
+		},
+		"24name10": {
+			"name": "Mohammed Sawan",
+			"position": "Software Engineer"
+		},
+		"24name11": {
+			"name": "Aljawhara Bin Askar",
+			"position": "Software Engineer"
+		},
+		"24name12": {
+			"name": "Noor Alresaini",
+			"position": "Software Engineer"
+		},
+		"24name13": {
+			"name": "Lana Abdulhadi",
+			"position": "Software Engineer"
+		},
+		"24name14": {
+			"name": "Meshal Alshammri",
+			"position": "Software Engineer"
+		},
+		"24name15": {
+			"name": "Lama Faris",
+			"position": "Organizer"
+		},
+		"24name16": {
+			"name": "Riham Mohammed",
+			"position": "Organizer"
+		},
+		"24name17": {
+			"name": "Sara Alhaiji",
+			"position": "Organizer"
+		},
+		"24name18": {
+			"name": "Ahmad Ghanoum",
+			"position": "Organizer"
+		},
+		"24name19": {
+			"name": "Sham Kottish",
+			"position": "Organizer"
+		},
+		"24name20": {
+			"name": "Shaikha Aldrees",
+			"position": "Organizer"
+		},
+		"24name21": {
+			"name": "Joud Hakeem",
+			"position": "Organizer"
+		},
+		"24name22": {
+			"name": "Aya Taqash",
+			"position": "Organizer"
+		},
+		"24name23": {
+			"name": "Abdulrahman Majed",
+			"position": "Organizer"
+		},
+		"24name24": {
+			"name": "Ahmed Alabo",
+			"position": "Organizer"
+		},
+		"24name25": {
+			"name": "Nura Ahmed",
+			"position": "Organizer"
+		},
+		"24name26": {
+			"name": "Nawal Fadi",
+			"position": "Organizer"
+		},
+		"24name27": {
+			"name": "Mohammed Binzouman",
+			"position": "Organizer"
+		},
+		"24name28": {
+			"name": "Abdullah Alshuwaier",
+			"position": "Organizer"
+		},
+		"24name29": {
+			"name": "Abdullah Al-owain",
+			"position": "Organizer"
+		},
+		"24name30": {
+			"name": "Tuleen Alshobaki",
+			"position": "Organizer"
+		},
+		"24name31": {
+			"name": "Raghad Altaheri",
+			"position": "Organizer"
+		},
+		"24name32": {
+			"name": "Nabiha Nasser",
+			"position": "Content Creator"
+		},
+		"24name33": {
+			"name": "Mays Alawi",
+			"position": "Content Creator"
+		},
+		"24name34": {
+			"name": "Affan Ibrahim",
+			"position": "Content Creator"
+		},
+		"24name35": {
+			"name": "Abdulmalik aldawsari",
+			"position": "Content Creator"
+		},
+		"24name36": {
+			"name": "Joud Aloqaili",
+			"position": "Content Creator"
+		},
+		"24name37": {
+			"name": "Raghad Alsultan",
+			"position": "Content Creator"
+		},
+		"24name38": {
+			"name": "Jana Yaghi",
+			"position": "Content Creator"
+		},
+		"24name39": {
+			"name": "Farida Taha",
+			"position": "Artist"
+		},
+		"24name40": {
+			"name": "Rouh Almutairi",
+			"position": "Organizer"
+		},
+		"24name41": {
+			"name": "Almas Nasser",
+			"position": "Artist"
+		},
+		"24name42": {
+			"name": "Anbar Alotaibi",
+			"position": "Artist"
+		},
+		"24name43": {
+			"name": "Aseel Nofal",
+			"position": "Artist"
+		},
+		"24name44": {
+			"name": "Lana Abudaqa",
+			"position": "Artist"
+		},
+		"24name45": {
+			"name": "Aljazi Alshahrani",
+			"position": "Artist"
+		},
+		"24name46": {
+			"name": "Elia Alsaqqa",
+			"position": "Organizer"
+		},
+		"24name47": {
+			"name": "Lana Maher",
+			"position": "Artist"
+		},
+		"24name48": {
+			"name": "Shaden Al-zahrani",
+			"position": "Artist"
+		},
+
 		"23name1": {
 			"name": "Khalil Melhem",
 			"position": "Club Lead"
@@ -234,6 +433,12 @@
 		"gameCampTitle": "Game Camp 👾",
 		"gameCampDescription": "A comprehensive three-day game development bootcamp presented in Arabic by a team of elite Saudi game developers, where participants immersed themselves in the exciting world of game creation, gaining hands-on experience 🎮",
 		"gameCampImageAlt": "Ghada Baazim explaining how lighting and environment guide players in game design, using in-game imagery as an example"
+	},
+
+	"events24": {
+		"compMajorsIntroTitle": "Intro to Computer Majors 🖥️",
+		"compMajorsIntroDescription": "A session by Ms. Sara Alsabeg that offered an overview of key fields in computer science. Attendees learned about the skills required, potential career paths and real-world uses for each major.",
+		"compMajorsIntroImageAlt": "Attendees attentively listening to the presenter during the lecture"
 	},
 
 	"proj": {

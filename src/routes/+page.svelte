@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { t } from 'svelte-i18n';
 	import Home from '$lib/home';
 	import Header from '$lib/header';
 	import Events from '$lib/events';
@@ -8,9 +9,8 @@
 
 	import ScrollUp from '$lib/ScrollUp.svelte';
 
-	const title = 'Google DSC | Al Yamamah';
-	const description =
-		"Welcome to the official website of Al Yamamah's University Google Developer Student Club!";
+	const title = $t('meta.title');
+	const description = $t('meta.description');
 </script>
 
 <svelte:head>
