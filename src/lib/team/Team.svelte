@@ -2,7 +2,7 @@
 	import { t, locale } from 'svelte-i18n';
 
 	import TeamContainer from './parts/TeamContainer.svelte';
-	import TeamButton from './parts/TeamButton.svelte';
+	import TeamDropdown from './parts/TeamDropdown.svelte';
 
 	import Spacer from '$lib/Spacer.svelte';
 	import { year } from '$lib/store';
@@ -44,6 +44,6 @@
 			<TeamContainer team={$t('teams.pr')} />
 			<TeamContainer team={$t('teams.cc')} />
 		{/if}
-		<TeamButton showMembers={areShown} onClick={toggleMembers} />
+		<TeamDropdown showMembers={areShown} onClick={toggleMembers} />
 	</div>
 </section>

@@ -2,7 +2,7 @@
 	import { t } from 'svelte-i18n';
 
 	import Slider from './ui/Slider.svelte';
-	import EventsButton from './ui/EventsButton.svelte';
+	import EventsDropdown from './ui/EventsDropdown.svelte';
 
 	import Spacer from '$lib/Spacer.svelte';
 </script>
@@ -12,5 +12,5 @@
 	<Spacer title={$t('events')} color="blue" />
 	<!-- Content -->
 	<Slider />
-	<EventsButton />
+	<EventsDropdown />
 </section>
