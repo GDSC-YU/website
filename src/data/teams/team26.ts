@@ -47,6 +47,7 @@ export const engineering26: TeamMember[] = [
 		nameKey: '26name5',
 		positionKey: '26name5',
 		team: ['Engineering'],
+		image: '/images/humans/Mohamed Sawan.png',
 		social: {
 			github: 'https://github.com/mohamedsawann',
 			linkedin: 'https://www.linkedin.com/in/mohammed-sawan-56ba6b251/'
